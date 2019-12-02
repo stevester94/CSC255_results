@@ -1,0 +1,3550 @@
+{
+    "baseline": [
+        {
+            "avg_cpu_utilization": 0.0,
+            "bytes_received_per_sec": 0.0,
+            "bytes_received_since_system_start": 27566192695,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96392505,
+            "context_switches_per_sec": 15.0,
+            "context_switches_since_system_start": 12384946,
+            "cpu_times_percent": [
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 6.0,
+            "interrupts_since_system_start": 9197402,
+            "interval_index": 0,
+            "per_cpu_utilization": [
+                0.0
+            ],
+            "soft_interrupts_per_sec": 8.0,
+            "soft_interrupts_since_system_start": 9457717,
+            "timestamp": 1574649077.804429
+        },
+        {
+            "avg_cpu_utilization": 0.0,
+            "bytes_received_per_sec": 0.0,
+            "bytes_received_since_system_start": 27566192695,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96392505,
+            "context_switches_per_sec": 10.0,
+            "context_switches_since_system_start": 12384956,
+            "cpu_times_percent": [
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 4.0,
+            "interrupts_since_system_start": 9197406,
+            "interval_index": 1,
+            "per_cpu_utilization": [
+                0.0
+            ],
+            "soft_interrupts_per_sec": 7.0,
+            "soft_interrupts_since_system_start": 9457724,
+            "timestamp": 1574649078.8063247
+        },
+        {
+            "avg_cpu_utilization": 0.0,
+            "bytes_received_per_sec": 0.0,
+            "bytes_received_since_system_start": 27566192695,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96392505,
+            "context_switches_per_sec": 12.0,
+            "context_switches_since_system_start": 12384968,
+            "cpu_times_percent": [
+                0.0,
+                0.0,
+                0.0,
+                100.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 4.0,
+            "interrupts_since_system_start": 9197410,
+            "interval_index": 2,
+            "per_cpu_utilization": [
+                0.0
+            ],
+            "soft_interrupts_per_sec": 7.0,
+            "soft_interrupts_since_system_start": 9457731,
+            "timestamp": 1574649079.8081734
+        },
+        {
+            "avg_cpu_utilization": 19.6,
+            "bytes_received_per_sec": 49794078.0,
+            "bytes_received_since_system_start": 27615986773,
+            "bytes_sent_per_sec": 912.0,
+            "bytes_sent_since_system_start": 96393417,
+            "context_switches_per_sec": 27368.0,
+            "context_switches_since_system_start": 12412336,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                5.0,
+                37.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 33249.0,
+            "interrupts_since_system_start": 9230659,
+            "interval_index": 3,
+            "per_cpu_utilization": [
+                19.6
+            ],
+            "soft_interrupts_per_sec": 33478.0,
+            "soft_interrupts_since_system_start": 9491209,
+            "timestamp": 1574649080.8099446
+        },
+        {
+            "avg_cpu_utilization": 25.0,
+            "bytes_received_per_sec": 59579024.0,
+            "bytes_received_since_system_start": 27675565797,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393417,
+            "context_switches_per_sec": 36040.0,
+            "context_switches_since_system_start": 12448376,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                3.0,
+                27.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 34875.0,
+            "interrupts_since_system_start": 9265534,
+            "interval_index": 4,
+            "per_cpu_utilization": [
+                25.0
+            ],
+            "soft_interrupts_per_sec": 35246.0,
+            "soft_interrupts_since_system_start": 9526455,
+            "timestamp": 1574649081.812041
+        },
+        {
+            "avg_cpu_utilization": 11.6,
+            "bytes_received_per_sec": 47816744.0,
+            "bytes_received_since_system_start": 27723382541,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393417,
+            "context_switches_per_sec": 33838.0,
+            "context_switches_since_system_start": 12482214,
+            "cpu_times_percent": [
+                0.0,
+                0.0,
+                2.0,
+                38.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 28247.0,
+            "interrupts_since_system_start": 9293781,
+            "interval_index": 5,
+            "per_cpu_utilization": [
+                11.6
+            ],
+            "soft_interrupts_per_sec": 28569.0,
+            "soft_interrupts_since_system_start": 9555024,
+            "timestamp": 1574649082.8140726
+        },
+        {
+            "avg_cpu_utilization": 11.9,
+            "bytes_received_per_sec": 45039144.0,
+            "bytes_received_since_system_start": 27768421685,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393417,
+            "context_switches_per_sec": 38724.0,
+            "context_switches_since_system_start": 12520938,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                0.0,
+                37.0,
+                0.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 27228.0,
+            "interrupts_since_system_start": 9321009,
+            "interval_index": 6,
+            "per_cpu_utilization": [
+                11.9
+            ],
+            "soft_interrupts_per_sec": 27437.0,
+            "soft_interrupts_since_system_start": 9582461,
+            "timestamp": 1574649083.816132
+        },
+        {
+            "avg_cpu_utilization": 11.4,
+            "bytes_received_per_sec": 44610632.0,
+            "bytes_received_since_system_start": 27813032317,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393417,
+            "context_switches_per_sec": 38094.0,
+            "context_switches_since_system_start": 12559032,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                1.0,
+                39.0,
+                0.0,
+                0.0,
+                0.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 27421.0,
+            "interrupts_since_system_start": 9348430,
+            "interval_index": 7,
+            "per_cpu_utilization": [
+                11.4
+            ],
+            "soft_interrupts_per_sec": 27638.0,
+            "soft_interrupts_since_system_start": 9610099,
+            "timestamp": 1574649084.8181748
+        },
+        {
+            "avg_cpu_utilization": 12.2,
+            "bytes_received_per_sec": 44056808.0,
+            "bytes_received_since_system_start": 27857089125,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393417,
+            "context_switches_per_sec": 30068.0,
+            "context_switches_since_system_start": 12589100,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                1.0,
+                43.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 28102.0,
+            "interrupts_since_system_start": 9376532,
+            "interval_index": 8,
+            "per_cpu_utilization": [
+                12.2
+            ],
+            "soft_interrupts_per_sec": 28315.0,
+            "soft_interrupts_since_system_start": 9638414,
+            "timestamp": 1574649085.8201768
+        },
+        {
+            "avg_cpu_utilization": 6.7,
+            "bytes_received_per_sec": 44156266.0,
+            "bytes_received_since_system_start": 27901245391,
+            "bytes_sent_per_sec": 42.0,
+            "bytes_sent_since_system_start": 96393459,
+            "context_switches_per_sec": 27748.0,
+            "context_switches_since_system_start": 12616848,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                1.0,
+                42.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 28413.0,
+            "interrupts_since_system_start": 9404945,
+            "interval_index": 9,
+            "per_cpu_utilization": [
+                6.7
+            ],
+            "soft_interrupts_per_sec": 28880.0,
+            "soft_interrupts_since_system_start": 9667294,
+            "timestamp": 1574649086.8221571
+        },
+        {
+            "avg_cpu_utilization": 12.2,
+            "bytes_received_per_sec": 44362432.0,
+            "bytes_received_since_system_start": 27945607823,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393459,
+            "context_switches_per_sec": 22755.0,
+            "context_switches_since_system_start": 12639603,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                2.0,
+                43.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 29182.0,
+            "interrupts_since_system_start": 9434127,
+            "interval_index": 10,
+            "per_cpu_utilization": [
+                12.2
+            ],
+            "soft_interrupts_per_sec": 29358.0,
+            "soft_interrupts_since_system_start": 9696652,
+            "timestamp": 1574649087.8241801
+        },
+        {
+            "avg_cpu_utilization": 6.7,
+            "bytes_received_per_sec": 44790456.0,
+            "bytes_received_since_system_start": 27990398279,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393459,
+            "context_switches_per_sec": 24005.0,
+            "context_switches_since_system_start": 12663608,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                0.0,
+                42.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 29821.0,
+            "interrupts_since_system_start": 9463948,
+            "interval_index": 11,
+            "per_cpu_utilization": [
+                6.7
+            ],
+            "soft_interrupts_per_sec": 30013.0,
+            "soft_interrupts_since_system_start": 9726665,
+            "timestamp": 1574649088.8261614
+        },
+        {
+            "avg_cpu_utilization": 20.9,
+            "bytes_received_per_sec": 52199104.0,
+            "bytes_received_since_system_start": 28042597383,
+            "bytes_sent_per_sec": 79.0,
+            "bytes_sent_since_system_start": 96393538,
+            "context_switches_per_sec": 28857.0,
+            "context_switches_since_system_start": 12692465,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                4.0,
+                34.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 34552.0,
+            "interrupts_since_system_start": 9498500,
+            "interval_index": 12,
+            "per_cpu_utilization": [
+                20.9
+            ],
+            "soft_interrupts_per_sec": 34768.0,
+            "soft_interrupts_since_system_start": 9761433,
+            "timestamp": 1574649089.8281906
+        },
+        {
+            "avg_cpu_utilization": 20.5,
+            "bytes_received_per_sec": 54066144.0,
+            "bytes_received_since_system_start": 28096663527,
+            "bytes_sent_per_sec": 54.0,
+            "bytes_sent_since_system_start": 96393592,
+            "context_switches_per_sec": 27649.0,
+            "context_switches_since_system_start": 12720114,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                4.0,
+                35.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 34085.0,
+            "interrupts_since_system_start": 9532585,
+            "interval_index": 13,
+            "per_cpu_utilization": [
+                20.5
+            ],
+            "soft_interrupts_per_sec": 34409.0,
+            "soft_interrupts_since_system_start": 9795842,
+            "timestamp": 1574649090.830359
+        },
+        {
+            "avg_cpu_utilization": 28.2,
+            "bytes_received_per_sec": 58504152.0,
+            "bytes_received_since_system_start": 28155167679,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393592,
+            "context_switches_per_sec": 30830.0,
+            "context_switches_since_system_start": 12750944,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                5.0,
+                28.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 37304.0,
+            "interrupts_since_system_start": 9569889,
+            "interval_index": 14,
+            "per_cpu_utilization": [
+                28.2
+            ],
+            "soft_interrupts_per_sec": 37603.0,
+            "soft_interrupts_since_system_start": 9833445,
+            "timestamp": 1574649091.832353
+        },
+        {
+            "avg_cpu_utilization": 35.9,
+            "bytes_received_per_sec": 59759048.0,
+            "bytes_received_since_system_start": 28214926727,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393592,
+            "context_switches_per_sec": 33605.0,
+            "context_switches_since_system_start": 12784549,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                6.0,
+                25.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38325.0,
+            "interrupts_since_system_start": 9608214,
+            "interval_index": 15,
+            "per_cpu_utilization": [
+                35.9
+            ],
+            "soft_interrupts_per_sec": 38620.0,
+            "soft_interrupts_since_system_start": 9872065,
+            "timestamp": 1574649092.8344524
+        },
+        {
+            "avg_cpu_utilization": 41.0,
+            "bytes_received_per_sec": 62875832.0,
+            "bytes_received_since_system_start": 28277802559,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393592,
+            "context_switches_per_sec": 32854.0,
+            "context_switches_since_system_start": 12817403,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                5.0,
+                23.0,
+                0.0,
+                0.0,
+                3.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40367.0,
+            "interrupts_since_system_start": 9648581,
+            "interval_index": 16,
+            "per_cpu_utilization": [
+                41.0
+            ],
+            "soft_interrupts_per_sec": 40700.0,
+            "soft_interrupts_since_system_start": 9912765,
+            "timestamp": 1574649093.836532
+        },
+        {
+            "avg_cpu_utilization": 27.8,
+            "bytes_received_per_sec": 60212352.0,
+            "bytes_received_since_system_start": 28338014911,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393592,
+            "context_switches_per_sec": 33524.0,
+            "context_switches_since_system_start": 12850927,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                3.0,
+                26.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 37456.0,
+            "interrupts_since_system_start": 9686037,
+            "interval_index": 17,
+            "per_cpu_utilization": [
+                27.8
+            ],
+            "soft_interrupts_per_sec": 37746.0,
+            "soft_interrupts_since_system_start": 9950511,
+            "timestamp": 1574649094.8385913
+        },
+        {
+            "avg_cpu_utilization": 30.3,
+            "bytes_received_per_sec": 60020184.0,
+            "bytes_received_since_system_start": 28398035095,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393592,
+            "context_switches_per_sec": 35801.0,
+            "context_switches_since_system_start": 12886728,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                2.0,
+                23.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39207.0,
+            "interrupts_since_system_start": 9725244,
+            "interval_index": 18,
+            "per_cpu_utilization": [
+                30.3
+            ],
+            "soft_interrupts_per_sec": 39471.0,
+            "soft_interrupts_since_system_start": 9989982,
+            "timestamp": 1574649095.840651
+        },
+        {
+            "avg_cpu_utilization": 36.6,
+            "bytes_received_per_sec": 60789792.0,
+            "bytes_received_since_system_start": 28458824887,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393592,
+            "context_switches_per_sec": 26717.0,
+            "context_switches_since_system_start": 12913445,
+            "cpu_times_percent": [
+                7.0,
+                0.0,
+                5.0,
+                26.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39408.0,
+            "interrupts_since_system_start": 9764652,
+            "interval_index": 19,
+            "per_cpu_utilization": [
+                36.6
+            ],
+            "soft_interrupts_per_sec": 39766.0,
+            "soft_interrupts_since_system_start": 10029748,
+            "timestamp": 1574649096.8427794
+        },
+        {
+            "avg_cpu_utilization": 34.2,
+            "bytes_received_per_sec": 60626936.0,
+            "bytes_received_since_system_start": 28519451823,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393592,
+            "context_switches_per_sec": 28561.0,
+            "context_switches_since_system_start": 12942006,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                4.0,
+                25.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39790.0,
+            "interrupts_since_system_start": 9804442,
+            "interval_index": 20,
+            "per_cpu_utilization": [
+                34.2
+            ],
+            "soft_interrupts_per_sec": 40133.0,
+            "soft_interrupts_since_system_start": 10069881,
+            "timestamp": 1574649097.8449228
+        },
+        {
+            "avg_cpu_utilization": 26.5,
+            "bytes_received_per_sec": 58275952.0,
+            "bytes_received_since_system_start": 28577727775,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393592,
+            "context_switches_per_sec": 35080.0,
+            "context_switches_since_system_start": 12977086,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                3.0,
+                25.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 37911.0,
+            "interrupts_since_system_start": 9842353,
+            "interval_index": 21,
+            "per_cpu_utilization": [
+                26.5
+            ],
+            "soft_interrupts_per_sec": 38213.0,
+            "soft_interrupts_since_system_start": 10108094,
+            "timestamp": 1574649098.8470178
+        },
+        {
+            "avg_cpu_utilization": 23.5,
+            "bytes_received_per_sec": 59395720.0,
+            "bytes_received_since_system_start": 28637123495,
+            "bytes_sent_per_sec": 79.0,
+            "bytes_sent_since_system_start": 96393671,
+            "context_switches_per_sec": 30962.0,
+            "context_switches_since_system_start": 13008048,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                4.0,
+                26.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39566.0,
+            "interrupts_since_system_start": 9881919,
+            "interval_index": 22,
+            "per_cpu_utilization": [
+                23.5
+            ],
+            "soft_interrupts_per_sec": 39798.0,
+            "soft_interrupts_since_system_start": 10147892,
+            "timestamp": 1574649099.8491688
+        },
+        {
+            "avg_cpu_utilization": 17.2,
+            "bytes_received_per_sec": 52173056.0,
+            "bytes_received_since_system_start": 28689296551,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393671,
+            "context_switches_per_sec": 50759.0,
+            "context_switches_since_system_start": 13058807,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                0.0,
+                24.0,
+                0.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35007.0,
+            "interrupts_since_system_start": 9916926,
+            "interval_index": 23,
+            "per_cpu_utilization": [
+                17.2
+            ],
+            "soft_interrupts_per_sec": 35106.0,
+            "soft_interrupts_since_system_start": 10182998,
+            "timestamp": 1574649100.8513188
+        },
+        {
+            "avg_cpu_utilization": 17.2,
+            "bytes_received_per_sec": 52202528.0,
+            "bytes_received_since_system_start": 28741499079,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393671,
+            "context_switches_per_sec": 51673.0,
+            "context_switches_since_system_start": 13110480,
+            "cpu_times_percent": [
+                0.0,
+                0.0,
+                2.0,
+                24.0,
+                0.0,
+                0.0,
+                0.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35092.0,
+            "interrupts_since_system_start": 9952018,
+            "interval_index": 24,
+            "per_cpu_utilization": [
+                17.2
+            ],
+            "soft_interrupts_per_sec": 35213.0,
+            "soft_interrupts_since_system_start": 10218211,
+            "timestamp": 1574649101.8533514
+        },
+        {
+            "avg_cpu_utilization": 32.4,
+            "bytes_received_per_sec": 58243256.0,
+            "bytes_received_since_system_start": 28799742335,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393671,
+            "context_switches_per_sec": 35616.0,
+            "context_switches_since_system_start": 13146096,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                3.0,
+                23.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38908.0,
+            "interrupts_since_system_start": 9990926,
+            "interval_index": 25,
+            "per_cpu_utilization": [
+                32.4
+            ],
+            "soft_interrupts_per_sec": 39162.0,
+            "soft_interrupts_since_system_start": 10257373,
+            "timestamp": 1574649102.8554547
+        },
+        {
+            "avg_cpu_utilization": 30.6,
+            "bytes_received_per_sec": 60801928.0,
+            "bytes_received_since_system_start": 28860544263,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393671,
+            "context_switches_per_sec": 26871.0,
+            "context_switches_since_system_start": 13172967,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                3.0,
+                25.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40226.0,
+            "interrupts_since_system_start": 10031152,
+            "interval_index": 26,
+            "per_cpu_utilization": [
+                30.6
+            ],
+            "soft_interrupts_per_sec": 40663.0,
+            "soft_interrupts_since_system_start": 10298036,
+            "timestamp": 1574649103.8576233
+        },
+        {
+            "avg_cpu_utilization": 40.9,
+            "bytes_received_per_sec": 60461090.0,
+            "bytes_received_since_system_start": 28921005353,
+            "bytes_sent_per_sec": 42.0,
+            "bytes_sent_since_system_start": 96393713,
+            "context_switches_per_sec": 26749.0,
+            "context_switches_since_system_start": 13199716,
+            "cpu_times_percent": [
+                7.0,
+                0.0,
+                9.0,
+                26.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40222.0,
+            "interrupts_since_system_start": 10071374,
+            "interval_index": 27,
+            "per_cpu_utilization": [
+                40.9
+            ],
+            "soft_interrupts_per_sec": 40593.0,
+            "soft_interrupts_since_system_start": 10338629,
+            "timestamp": 1574649104.8594067
+        },
+        {
+            "avg_cpu_utilization": 30.8,
+            "bytes_received_per_sec": 59894600.0,
+            "bytes_received_since_system_start": 28980899953,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393713,
+            "context_switches_per_sec": 27856.0,
+            "context_switches_since_system_start": 13227572,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                6.0,
+                27.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39846.0,
+            "interrupts_since_system_start": 10111220,
+            "interval_index": 28,
+            "per_cpu_utilization": [
+                30.8
+            ],
+            "soft_interrupts_per_sec": 40227.0,
+            "soft_interrupts_since_system_start": 10378856,
+            "timestamp": 1574649105.861493
+        },
+        {
+            "avg_cpu_utilization": 36.6,
+            "bytes_received_per_sec": 59069592.0,
+            "bytes_received_since_system_start": 29039969545,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393713,
+            "context_switches_per_sec": 31396.0,
+            "context_switches_since_system_start": 13258968,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                7.0,
+                26.0,
+                0.0,
+                0.0,
+                3.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39502.0,
+            "interrupts_since_system_start": 10150722,
+            "interval_index": 29,
+            "per_cpu_utilization": [
+                36.6
+            ],
+            "soft_interrupts_per_sec": 39723.0,
+            "soft_interrupts_since_system_start": 10418579,
+            "timestamp": 1574649106.863564
+        },
+        {
+            "avg_cpu_utilization": 36.6,
+            "bytes_received_per_sec": 60481032.0,
+            "bytes_received_since_system_start": 29100450577,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393713,
+            "context_switches_per_sec": 25579.0,
+            "context_switches_since_system_start": 13284547,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                7.0,
+                26.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40428.0,
+            "interrupts_since_system_start": 10191150,
+            "interval_index": 30,
+            "per_cpu_utilization": [
+                36.6
+            ],
+            "soft_interrupts_per_sec": 40637.0,
+            "soft_interrupts_since_system_start": 10459216,
+            "timestamp": 1574649107.8657427
+        },
+        {
+            "avg_cpu_utilization": 21.3,
+            "bytes_received_per_sec": 48872600.0,
+            "bytes_received_since_system_start": 29149323177,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96393713,
+            "context_switches_per_sec": 24216.0,
+            "context_switches_since_system_start": 13308763,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                5.0,
+                37.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 32352.0,
+            "interrupts_since_system_start": 10223502,
+            "interval_index": 31,
+            "per_cpu_utilization": [
+                21.3
+            ],
+            "soft_interrupts_per_sec": 32741.0,
+            "soft_interrupts_since_system_start": 10491957,
+            "timestamp": 1574649108.8679178
+        },
+        {
+            "avg_cpu_utilization": 25.6,
+            "bytes_received_per_sec": 57970080.0,
+            "bytes_received_since_system_start": 29207293257,
+            "bytes_sent_per_sec": 79.0,
+            "bytes_sent_since_system_start": 96393792,
+            "context_switches_per_sec": 27259.0,
+            "context_switches_since_system_start": 13336022,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                4.0,
+                29.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38226.0,
+            "interrupts_since_system_start": 10261728,
+            "interval_index": 32,
+            "per_cpu_utilization": [
+                25.6
+            ],
+            "soft_interrupts_per_sec": 38666.0,
+            "soft_interrupts_since_system_start": 10530623,
+            "timestamp": 1574649109.869957
+        },
+        {
+            "avg_cpu_utilization": 35.9,
+            "bytes_received_per_sec": 59208432.0,
+            "bytes_received_since_system_start": 29266501689,
+            "bytes_sent_per_sec": 1917.0,
+            "bytes_sent_since_system_start": 96395709,
+            "context_switches_per_sec": 30138.0,
+            "context_switches_since_system_start": 13366160,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                4.0,
+                25.0,
+                0.0,
+                0.0,
+                3.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39043.0,
+            "interrupts_since_system_start": 10300771,
+            "interval_index": 33,
+            "per_cpu_utilization": [
+                35.9
+            ],
+            "soft_interrupts_per_sec": 39354.0,
+            "soft_interrupts_since_system_start": 10569977,
+            "timestamp": 1574649110.8720026
+        },
+        {
+            "avg_cpu_utilization": 36.8,
+            "bytes_received_per_sec": 57686744.0,
+            "bytes_received_since_system_start": 29324188433,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96395709,
+            "context_switches_per_sec": 38211.0,
+            "context_switches_since_system_start": 13404371,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                6.0,
+                24.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38568.0,
+            "interrupts_since_system_start": 10339339,
+            "interval_index": 34,
+            "per_cpu_utilization": [
+                36.8
+            ],
+            "soft_interrupts_per_sec": 38838.0,
+            "soft_interrupts_since_system_start": 10608815,
+            "timestamp": 1574649111.873657
+        },
+        {
+            "avg_cpu_utilization": 41.9,
+            "bytes_received_per_sec": 61519568.0,
+            "bytes_received_since_system_start": 29385708001,
+            "bytes_sent_per_sec": 639.0,
+            "bytes_sent_since_system_start": 96396348,
+            "context_switches_per_sec": 26782.0,
+            "context_switches_since_system_start": 13431153,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                7.0,
+                25.0,
+                0.0,
+                0.0,
+                5.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40607.0,
+            "interrupts_since_system_start": 10379946,
+            "interval_index": 35,
+            "per_cpu_utilization": [
+                41.9
+            ],
+            "soft_interrupts_per_sec": 41056.0,
+            "soft_interrupts_since_system_start": 10649871,
+            "timestamp": 1574649112.875465
+        },
+        {
+            "avg_cpu_utilization": 35.1,
+            "bytes_received_per_sec": 61482792.0,
+            "bytes_received_since_system_start": 29447190793,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96396348,
+            "context_switches_per_sec": 26469.0,
+            "context_switches_since_system_start": 13457622,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                4.0,
+                24.0,
+                0.0,
+                0.0,
+                3.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40685.0,
+            "interrupts_since_system_start": 10420631,
+            "interval_index": 36,
+            "per_cpu_utilization": [
+                35.1
+            ],
+            "soft_interrupts_per_sec": 41086.0,
+            "soft_interrupts_since_system_start": 10690957,
+            "timestamp": 1574649113.8772511
+        },
+        {
+            "avg_cpu_utilization": 39.5,
+            "bytes_received_per_sec": 60633320.0,
+            "bytes_received_since_system_start": 29507824113,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96396348,
+            "context_switches_per_sec": 26256.0,
+            "context_switches_since_system_start": 13483878,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                6.0,
+                26.0,
+                0.0,
+                0.0,
+                4.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40079.0,
+            "interrupts_since_system_start": 10460710,
+            "interval_index": 37,
+            "per_cpu_utilization": [
+                39.5
+            ],
+            "soft_interrupts_per_sec": 40549.0,
+            "soft_interrupts_since_system_start": 10731506,
+            "timestamp": 1574649114.8790443
+        },
+        {
+            "avg_cpu_utilization": 33.3,
+            "bytes_received_per_sec": 57434568.0,
+            "bytes_received_since_system_start": 29565258681,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96396348,
+            "context_switches_per_sec": 29748.0,
+            "context_switches_since_system_start": 13513626,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                5.0,
+                28.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38052.0,
+            "interrupts_since_system_start": 10498762,
+            "interval_index": 38,
+            "per_cpu_utilization": [
+                33.3
+            ],
+            "soft_interrupts_per_sec": 38289.0,
+            "soft_interrupts_since_system_start": 10769795,
+            "timestamp": 1574649115.8808396
+        },
+        {
+            "avg_cpu_utilization": 38.1,
+            "bytes_received_per_sec": 59089712.0,
+            "bytes_received_since_system_start": 29624348393,
+            "bytes_sent_per_sec": 639.0,
+            "bytes_sent_since_system_start": 96396987,
+            "context_switches_per_sec": 30840.0,
+            "context_switches_since_system_start": 13544466,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                6.0,
+                26.0,
+                0.0,
+                0.0,
+                4.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 37643.0,
+            "interrupts_since_system_start": 10536405,
+            "interval_index": 39,
+            "per_cpu_utilization": [
+                38.1
+            ],
+            "soft_interrupts_per_sec": 37959.0,
+            "soft_interrupts_since_system_start": 10807754,
+            "timestamp": 1574649116.8828685
+        },
+        {
+            "avg_cpu_utilization": 32.5,
+            "bytes_received_per_sec": 56887128.0,
+            "bytes_received_since_system_start": 29681235521,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96396987,
+            "context_switches_per_sec": 34571.0,
+            "context_switches_since_system_start": 13579037,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                4.0,
+                27.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 36547.0,
+            "interrupts_since_system_start": 10572952,
+            "interval_index": 40,
+            "per_cpu_utilization": [
+                32.5
+            ],
+            "soft_interrupts_per_sec": 36800.0,
+            "soft_interrupts_since_system_start": 10844554,
+            "timestamp": 1574649117.885075
+        },
+        {
+            "avg_cpu_utilization": 12.9,
+            "bytes_received_per_sec": 51081104.0,
+            "bytes_received_since_system_start": 29732316625,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96396987,
+            "context_switches_per_sec": 48681.0,
+            "context_switches_since_system_start": 13627718,
+            "cpu_times_percent": [
+                0.0,
+                0.0,
+                1.0,
+                27.0,
+                0.0,
+                0.0,
+                0.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 33784.0,
+            "interrupts_since_system_start": 10606736,
+            "interval_index": 41,
+            "per_cpu_utilization": [
+                12.9
+            ],
+            "soft_interrupts_per_sec": 33891.0,
+            "soft_interrupts_since_system_start": 10878445,
+            "timestamp": 1574649118.8871818
+        },
+        {
+            "avg_cpu_utilization": 17.1,
+            "bytes_received_per_sec": 49281816.0,
+            "bytes_received_since_system_start": 29781598441,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96396987,
+            "context_switches_per_sec": 48689.0,
+            "context_switches_since_system_start": 13676407,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                1.0,
+                29.0,
+                0.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 31887.0,
+            "interrupts_since_system_start": 10638623,
+            "interval_index": 42,
+            "per_cpu_utilization": [
+                17.1
+            ],
+            "soft_interrupts_per_sec": 32125.0,
+            "soft_interrupts_since_system_start": 10910570,
+            "timestamp": 1574649119.8892152
+        },
+        {
+            "avg_cpu_utilization": 6.5,
+            "bytes_received_per_sec": 43504728.0,
+            "bytes_received_since_system_start": 29825103169,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96396987,
+            "context_switches_per_sec": 27475.0,
+            "context_switches_since_system_start": 13703882,
+            "cpu_times_percent": [
+                0.0,
+                0.0,
+                1.0,
+                43.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 28021.0,
+            "interrupts_since_system_start": 10666644,
+            "interval_index": 43,
+            "per_cpu_utilization": [
+                6.5
+            ],
+            "soft_interrupts_per_sec": 28358.0,
+            "soft_interrupts_since_system_start": 10938928,
+            "timestamp": 1574649120.891306
+        },
+        {
+            "avg_cpu_utilization": 11.8,
+            "bytes_received_per_sec": 40169560.0,
+            "bytes_received_since_system_start": 29865272729,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96396987,
+            "context_switches_per_sec": 29429.0,
+            "context_switches_since_system_start": 13733311,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                1.0,
+                45.0,
+                0.0,
+                0.0,
+                0.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 25050.0,
+            "interrupts_since_system_start": 10691694,
+            "interval_index": 44,
+            "per_cpu_utilization": [
+                11.8
+            ],
+            "soft_interrupts_per_sec": 25427.0,
+            "soft_interrupts_since_system_start": 10964355,
+            "timestamp": 1574649121.8933089
+        },
+        {
+            "avg_cpu_utilization": 8.3,
+            "bytes_received_per_sec": 41298064.0,
+            "bytes_received_since_system_start": 29906570793,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96396987,
+            "context_switches_per_sec": 31958.0,
+            "context_switches_since_system_start": 13765269,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                0.0,
+                44.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 26322.0,
+            "interrupts_since_system_start": 10718016,
+            "interval_index": 45,
+            "per_cpu_utilization": [
+                8.3
+            ],
+            "soft_interrupts_per_sec": 26689.0,
+            "soft_interrupts_since_system_start": 10991044,
+            "timestamp": 1574649122.895322
+        },
+        {
+            "avg_cpu_utilization": 12.2,
+            "bytes_received_per_sec": 41153488.0,
+            "bytes_received_since_system_start": 29947724281,
+            "bytes_sent_per_sec": 54.0,
+            "bytes_sent_since_system_start": 96397041,
+            "context_switches_per_sec": 32973.0,
+            "context_switches_since_system_start": 13798242,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                1.0,
+                43.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 26618.0,
+            "interrupts_since_system_start": 10744634,
+            "interval_index": 46,
+            "per_cpu_utilization": [
+                12.2
+            ],
+            "soft_interrupts_per_sec": 26890.0,
+            "soft_interrupts_since_system_start": 11017934,
+            "timestamp": 1574649123.8973393
+        },
+        {
+            "avg_cpu_utilization": 7.8,
+            "bytes_received_per_sec": 39082472.0,
+            "bytes_received_since_system_start": 29986806753,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397041,
+            "context_switches_per_sec": 30716.0,
+            "context_switches_since_system_start": 13828958,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                0.0,
+                47.0,
+                0.0,
+                0.0,
+                0.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 25168.0,
+            "interrupts_since_system_start": 10769802,
+            "interval_index": 47,
+            "per_cpu_utilization": [
+                7.8
+            ],
+            "soft_interrupts_per_sec": 25452.0,
+            "soft_interrupts_since_system_start": 11043386,
+            "timestamp": 1574649124.8993547
+        },
+        {
+            "avg_cpu_utilization": 8.0,
+            "bytes_received_per_sec": 38227488.0,
+            "bytes_received_since_system_start": 30025034241,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397041,
+            "context_switches_per_sec": 31004.0,
+            "context_switches_since_system_start": 13859962,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                1.0,
+                46.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 24732.0,
+            "interrupts_since_system_start": 10794534,
+            "interval_index": 48,
+            "per_cpu_utilization": [
+                8.0
+            ],
+            "soft_interrupts_per_sec": 25002.0,
+            "soft_interrupts_since_system_start": 11068388,
+            "timestamp": 1574649125.9013321
+        },
+        {
+            "avg_cpu_utilization": 8.0,
+            "bytes_received_per_sec": 39705648.0,
+            "bytes_received_since_system_start": 30064739889,
+            "bytes_sent_per_sec": 79.0,
+            "bytes_sent_since_system_start": 96397120,
+            "context_switches_per_sec": 31370.0,
+            "context_switches_since_system_start": 13891332,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                0.0,
+                46.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 25789.0,
+            "interrupts_since_system_start": 10820323,
+            "interval_index": 49,
+            "per_cpu_utilization": [
+                8.0
+            ],
+            "soft_interrupts_per_sec": 26040.0,
+            "soft_interrupts_since_system_start": 11094428,
+            "timestamp": 1574649126.9033995
+        },
+        {
+            "avg_cpu_utilization": 20.0,
+            "bytes_received_per_sec": 53442232.0,
+            "bytes_received_since_system_start": 30118182121,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397120,
+            "context_switches_per_sec": 35694.0,
+            "context_switches_since_system_start": 13927026,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                2.0,
+                32.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 33704.0,
+            "interrupts_since_system_start": 10854027,
+            "interval_index": 50,
+            "per_cpu_utilization": [
+                20.0
+            ],
+            "soft_interrupts_per_sec": 33967.0,
+            "soft_interrupts_since_system_start": 11128395,
+            "timestamp": 1574649127.9054008
+        },
+        {
+            "avg_cpu_utilization": 29.3,
+            "bytes_received_per_sec": 58442858.0,
+            "bytes_received_since_system_start": 30176624979,
+            "bytes_sent_per_sec": 42.0,
+            "bytes_sent_since_system_start": 96397162,
+            "context_switches_per_sec": 32159.0,
+            "context_switches_since_system_start": 13959185,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                6.0,
+                29.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 36836.0,
+            "interrupts_since_system_start": 10890863,
+            "interval_index": 51,
+            "per_cpu_utilization": [
+                29.3
+            ],
+            "soft_interrupts_per_sec": 37102.0,
+            "soft_interrupts_since_system_start": 11165497,
+            "timestamp": 1574649128.9075506
+        },
+        {
+            "avg_cpu_utilization": 31.6,
+            "bytes_received_per_sec": 57810240.0,
+            "bytes_received_since_system_start": 30234435219,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397162,
+            "context_switches_per_sec": 37868.0,
+            "context_switches_since_system_start": 13997053,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                2.0,
+                26.0,
+                0.0,
+                0.0,
+                4.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35612.0,
+            "interrupts_since_system_start": 10926475,
+            "interval_index": 52,
+            "per_cpu_utilization": [
+                31.6
+            ],
+            "soft_interrupts_per_sec": 35863.0,
+            "soft_interrupts_since_system_start": 11201360,
+            "timestamp": 1574649129.9095914
+        },
+        {
+            "avg_cpu_utilization": 35.1,
+            "bytes_received_per_sec": 59131776.0,
+            "bytes_received_since_system_start": 30293566995,
+            "bytes_sent_per_sec": 54.0,
+            "bytes_sent_since_system_start": 96397216,
+            "context_switches_per_sec": 36221.0,
+            "context_switches_since_system_start": 14033274,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                6.0,
+                24.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39255.0,
+            "interrupts_since_system_start": 10965730,
+            "interval_index": 53,
+            "per_cpu_utilization": [
+                35.1
+            ],
+            "soft_interrupts_per_sec": 39555.0,
+            "soft_interrupts_since_system_start": 11240915,
+            "timestamp": 1574649130.911444
+        },
+        {
+            "avg_cpu_utilization": 31.6,
+            "bytes_received_per_sec": 59026824.0,
+            "bytes_received_since_system_start": 30352593819,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397216,
+            "context_switches_per_sec": 33926.0,
+            "context_switches_since_system_start": 14067200,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                4.0,
+                26.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38565.0,
+            "interrupts_since_system_start": 11004295,
+            "interval_index": 54,
+            "per_cpu_utilization": [
+                31.6
+            ],
+            "soft_interrupts_per_sec": 38913.0,
+            "soft_interrupts_since_system_start": 11279828,
+            "timestamp": 1574649131.9135187
+        },
+        {
+            "avg_cpu_utilization": 22.9,
+            "bytes_received_per_sec": 54056832.0,
+            "bytes_received_since_system_start": 30406650651,
+            "bytes_sent_per_sec": 54.0,
+            "bytes_sent_since_system_start": 96397270,
+            "context_switches_per_sec": 43142.0,
+            "context_switches_since_system_start": 14110342,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                2.0,
+                27.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35148.0,
+            "interrupts_since_system_start": 11039443,
+            "interval_index": 55,
+            "per_cpu_utilization": [
+                22.9
+            ],
+            "soft_interrupts_per_sec": 35325.0,
+            "soft_interrupts_since_system_start": 11315153,
+            "timestamp": 1574649132.9154375
+        },
+        {
+            "avg_cpu_utilization": 29.7,
+            "bytes_received_per_sec": 55341024.0,
+            "bytes_received_since_system_start": 30461991675,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397270,
+            "context_switches_per_sec": 45751.0,
+            "context_switches_since_system_start": 14156093,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                4.0,
+                26.0,
+                0.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35665.0,
+            "interrupts_since_system_start": 11075108,
+            "interval_index": 56,
+            "per_cpu_utilization": [
+                29.7
+            ],
+            "soft_interrupts_per_sec": 35838.0,
+            "soft_interrupts_since_system_start": 11350991,
+            "timestamp": 1574649133.9175143
+        },
+        {
+            "avg_cpu_utilization": 18.7,
+            "bytes_received_per_sec": 55189584.0,
+            "bytes_received_since_system_start": 30517181259,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397270,
+            "context_switches_per_sec": 42427.0,
+            "context_switches_since_system_start": 14198520,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                2.0,
+                26.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 37056.0,
+            "interrupts_since_system_start": 11112164,
+            "interval_index": 57,
+            "per_cpu_utilization": [
+                18.7
+            ],
+            "soft_interrupts_per_sec": 37199.0,
+            "soft_interrupts_since_system_start": 11388190,
+            "timestamp": 1574649134.9196792
+        },
+        {
+            "avg_cpu_utilization": 22.9,
+            "bytes_received_per_sec": 56026904.0,
+            "bytes_received_since_system_start": 30573208163,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397270,
+            "context_switches_per_sec": 38318.0,
+            "context_switches_since_system_start": 14236838,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                1.0,
+                27.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 36685.0,
+            "interrupts_since_system_start": 11148849,
+            "interval_index": 58,
+            "per_cpu_utilization": [
+                22.9
+            ],
+            "soft_interrupts_per_sec": 36872.0,
+            "soft_interrupts_since_system_start": 11425062,
+            "timestamp": 1574649135.9217844
+        },
+        {
+            "avg_cpu_utilization": 22.0,
+            "bytes_received_per_sec": 49322336.0,
+            "bytes_received_since_system_start": 30622530499,
+            "bytes_sent_per_sec": 79.0,
+            "bytes_sent_since_system_start": 96397349,
+            "context_switches_per_sec": 42461.0,
+            "context_switches_since_system_start": 14279299,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                1.0,
+                32.0,
+                0.0,
+                0.0,
+                2.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 31573.0,
+            "interrupts_since_system_start": 11180422,
+            "interval_index": 59,
+            "per_cpu_utilization": [
+                22.0
+            ],
+            "soft_interrupts_per_sec": 31805.0,
+            "soft_interrupts_since_system_start": 11456867,
+            "timestamp": 1574649136.9239705
+        },
+        {
+            "avg_cpu_utilization": 22.5,
+            "bytes_received_per_sec": 53553904.0,
+            "bytes_received_since_system_start": 30676084403,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397349,
+            "context_switches_per_sec": 34723.0,
+            "context_switches_since_system_start": 14314022,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                1.0,
+                31.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 34553.0,
+            "interrupts_since_system_start": 11214975,
+            "interval_index": 60,
+            "per_cpu_utilization": [
+                22.5
+            ],
+            "soft_interrupts_per_sec": 34824.0,
+            "soft_interrupts_since_system_start": 11491691,
+            "timestamp": 1574649137.926016
+        },
+        {
+            "avg_cpu_utilization": 34.9,
+            "bytes_received_per_sec": 58347568.0,
+            "bytes_received_since_system_start": 30734431971,
+            "bytes_sent_per_sec": 54.0,
+            "bytes_sent_since_system_start": 96397403,
+            "context_switches_per_sec": 25480.0,
+            "context_switches_since_system_start": 14339502,
+            "cpu_times_percent": [
+                7.0,
+                0.0,
+                5.0,
+                28.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 37943.0,
+            "interrupts_since_system_start": 11252918,
+            "interval_index": 61,
+            "per_cpu_utilization": [
+                34.9
+            ],
+            "soft_interrupts_per_sec": 38439.0,
+            "soft_interrupts_since_system_start": 11530130,
+            "timestamp": 1574649138.9281168
+        },
+        {
+            "avg_cpu_utilization": 25.0,
+            "bytes_received_per_sec": 55864240.0,
+            "bytes_received_since_system_start": 30790296211,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397403,
+            "context_switches_per_sec": 26808.0,
+            "context_switches_since_system_start": 14366310,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                6.0,
+                30.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 36158.0,
+            "interrupts_since_system_start": 11289076,
+            "interval_index": 62,
+            "per_cpu_utilization": [
+                25.0
+            ],
+            "soft_interrupts_per_sec": 36793.0,
+            "soft_interrupts_since_system_start": 11566923,
+            "timestamp": 1574649139.9299405
+        },
+        {
+            "avg_cpu_utilization": 21.1,
+            "bytes_received_per_sec": 54673760.0,
+            "bytes_received_since_system_start": 30844969971,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397403,
+            "context_switches_per_sec": 34352.0,
+            "context_switches_since_system_start": 14400662,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                3.0,
+                30.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35291.0,
+            "interrupts_since_system_start": 11324367,
+            "interval_index": 63,
+            "per_cpu_utilization": [
+                21.1
+            ],
+            "soft_interrupts_per_sec": 35741.0,
+            "soft_interrupts_since_system_start": 11602664,
+            "timestamp": 1574649140.93203
+        },
+        {
+            "avg_cpu_utilization": 22.2,
+            "bytes_received_per_sec": 54044210.0,
+            "bytes_received_since_system_start": 30899014181,
+            "bytes_sent_per_sec": 42.0,
+            "bytes_sent_since_system_start": 96397445,
+            "context_switches_per_sec": 40512.0,
+            "context_switches_since_system_start": 14441174,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                1.0,
+                28.0,
+                0.0,
+                0.0,
+                2.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35211.0,
+            "interrupts_since_system_start": 11359578,
+            "interval_index": 64,
+            "per_cpu_utilization": [
+                22.2
+            ],
+            "soft_interrupts_per_sec": 35509.0,
+            "soft_interrupts_since_system_start": 11638173,
+            "timestamp": 1574649141.934078
+        },
+        {
+            "avg_cpu_utilization": 31.0,
+            "bytes_received_per_sec": 57328546.0,
+            "bytes_received_since_system_start": 30956342727,
+            "bytes_sent_per_sec": 42.0,
+            "bytes_sent_since_system_start": 96397487,
+            "context_switches_per_sec": 27238.0,
+            "context_switches_since_system_start": 14468412,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                6.0,
+                29.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 37029.0,
+            "interrupts_since_system_start": 11396607,
+            "interval_index": 65,
+            "per_cpu_utilization": [
+                31.0
+            ],
+            "soft_interrupts_per_sec": 38061.0,
+            "soft_interrupts_since_system_start": 11676234,
+            "timestamp": 1574649142.936087
+        },
+        {
+            "avg_cpu_utilization": 29.3,
+            "bytes_received_per_sec": 56884352.0,
+            "bytes_received_since_system_start": 31013227079,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397487,
+            "context_switches_per_sec": 25279.0,
+            "context_switches_since_system_start": 14493691,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                3.0,
+                29.0,
+                0.0,
+                0.0,
+                3.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 36246.0,
+            "interrupts_since_system_start": 11432853,
+            "interval_index": 66,
+            "per_cpu_utilization": [
+                29.3
+            ],
+            "soft_interrupts_per_sec": 37422.0,
+            "soft_interrupts_since_system_start": 11713656,
+            "timestamp": 1574649143.9382825
+        },
+        {
+            "avg_cpu_utilization": 34.9,
+            "bytes_received_per_sec": 59365000.0,
+            "bytes_received_since_system_start": 31072592079,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397487,
+            "context_switches_per_sec": 25871.0,
+            "context_switches_since_system_start": 14519562,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                6.0,
+                28.0,
+                0.0,
+                0.0,
+                3.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 37833.0,
+            "interrupts_since_system_start": 11470686,
+            "interval_index": 67,
+            "per_cpu_utilization": [
+                34.9
+            ],
+            "soft_interrupts_per_sec": 39145.0,
+            "soft_interrupts_since_system_start": 11752801,
+            "timestamp": 1574649144.9404209
+        },
+        {
+            "avg_cpu_utilization": 30.0,
+            "bytes_received_per_sec": 57975192.0,
+            "bytes_received_since_system_start": 31130567271,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397487,
+            "context_switches_per_sec": 28665.0,
+            "context_switches_since_system_start": 14548227,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                5.0,
+                28.0,
+                0.0,
+                0.0,
+                3.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 36892.0,
+            "interrupts_since_system_start": 11507578,
+            "interval_index": 68,
+            "per_cpu_utilization": [
+                30.0
+            ],
+            "soft_interrupts_per_sec": 38249.0,
+            "soft_interrupts_since_system_start": 11791050,
+            "timestamp": 1574649145.941657
+        },
+        {
+            "avg_cpu_utilization": 27.0,
+            "bytes_received_per_sec": 60399872.0,
+            "bytes_received_since_system_start": 31190967143,
+            "bytes_sent_per_sec": 79.0,
+            "bytes_sent_since_system_start": 96397566,
+            "context_switches_per_sec": 26037.0,
+            "context_switches_since_system_start": 14574264,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                2.0,
+                27.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38653.0,
+            "interrupts_since_system_start": 11546231,
+            "interval_index": 69,
+            "per_cpu_utilization": [
+                27.0
+            ],
+            "soft_interrupts_per_sec": 39708.0,
+            "soft_interrupts_since_system_start": 11830758,
+            "timestamp": 1574649146.943431
+        },
+        {
+            "avg_cpu_utilization": 35.0,
+            "bytes_received_per_sec": 60905112.0,
+            "bytes_received_since_system_start": 31251872255,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397566,
+            "context_switches_per_sec": 26540.0,
+            "context_switches_since_system_start": 14600804,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                5.0,
+                26.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39832.0,
+            "interrupts_since_system_start": 11586063,
+            "interval_index": 70,
+            "per_cpu_utilization": [
+                35.0
+            ],
+            "soft_interrupts_per_sec": 40262.0,
+            "soft_interrupts_since_system_start": 11871020,
+            "timestamp": 1574649147.9455533
+        },
+        {
+            "avg_cpu_utilization": 31.2,
+            "bytes_received_per_sec": 60337408.0,
+            "bytes_received_since_system_start": 31312209663,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397566,
+            "context_switches_per_sec": 35506.0,
+            "context_switches_since_system_start": 14636310,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                3.0,
+                22.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40630.0,
+            "interrupts_since_system_start": 11626693,
+            "interval_index": 71,
+            "per_cpu_utilization": [
+                31.2
+            ],
+            "soft_interrupts_per_sec": 40773.0,
+            "soft_interrupts_since_system_start": 11911793,
+            "timestamp": 1574649148.947669
+        },
+        {
+            "avg_cpu_utilization": 37.8,
+            "bytes_received_per_sec": 61089120.0,
+            "bytes_received_since_system_start": 31373298783,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397566,
+            "context_switches_per_sec": 32368.0,
+            "context_switches_since_system_start": 14668678,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                8.0,
+                23.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40855.0,
+            "interrupts_since_system_start": 11667548,
+            "interval_index": 72,
+            "per_cpu_utilization": [
+                37.8
+            ],
+            "soft_interrupts_per_sec": 41107.0,
+            "soft_interrupts_since_system_start": 11952900,
+            "timestamp": 1574649149.949812
+        },
+        {
+            "avg_cpu_utilization": 34.1,
+            "bytes_received_per_sec": 61050040.0,
+            "bytes_received_since_system_start": 31434348823,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397566,
+            "context_switches_per_sec": 27917.0,
+            "context_switches_since_system_start": 14696595,
+            "cpu_times_percent": [
+                7.0,
+                0.0,
+                3.0,
+                27.0,
+                0.0,
+                0.0,
+                3.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40449.0,
+            "interrupts_since_system_start": 11707997,
+            "interval_index": 73,
+            "per_cpu_utilization": [
+                34.1
+            ],
+            "soft_interrupts_per_sec": 40630.0,
+            "soft_interrupts_since_system_start": 11993530,
+            "timestamp": 1574649150.9519753
+        },
+        {
+            "avg_cpu_utilization": 27.8,
+            "bytes_received_per_sec": 59183560.0,
+            "bytes_received_since_system_start": 31493532383,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397566,
+            "context_switches_per_sec": 31519.0,
+            "context_switches_since_system_start": 14728114,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                3.0,
+                26.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38610.0,
+            "interrupts_since_system_start": 11746607,
+            "interval_index": 74,
+            "per_cpu_utilization": [
+                27.8
+            ],
+            "soft_interrupts_per_sec": 38811.0,
+            "soft_interrupts_since_system_start": 12032341,
+            "timestamp": 1574649151.9540954
+        },
+        {
+            "avg_cpu_utilization": 18.2,
+            "bytes_received_per_sec": 56393288.0,
+            "bytes_received_since_system_start": 31549925671,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397566,
+            "context_switches_per_sec": 41727.0,
+            "context_switches_since_system_start": 14769841,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                1.0,
+                27.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35983.0,
+            "interrupts_since_system_start": 11782590,
+            "interval_index": 75,
+            "per_cpu_utilization": [
+                18.2
+            ],
+            "soft_interrupts_per_sec": 36165.0,
+            "soft_interrupts_since_system_start": 12068506,
+            "timestamp": 1574649152.9561574
+        },
+        {
+            "avg_cpu_utilization": 20.6,
+            "bytes_received_per_sec": 54139608.0,
+            "bytes_received_since_system_start": 31604065279,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397566,
+            "context_switches_per_sec": 45828.0,
+            "context_switches_since_system_start": 14815669,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                2.0,
+                27.0,
+                0.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 33672.0,
+            "interrupts_since_system_start": 11816262,
+            "interval_index": 76,
+            "per_cpu_utilization": [
+                20.6
+            ],
+            "soft_interrupts_per_sec": 33902.0,
+            "soft_interrupts_since_system_start": 12102408,
+            "timestamp": 1574649153.9582028
+        },
+        {
+            "avg_cpu_utilization": 18.2,
+            "bytes_received_per_sec": 56550392.0,
+            "bytes_received_since_system_start": 31660615671,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397566,
+            "context_switches_per_sec": 40194.0,
+            "context_switches_since_system_start": 14855863,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                2.0,
+                27.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 36155.0,
+            "interrupts_since_system_start": 11852417,
+            "interval_index": 77,
+            "per_cpu_utilization": [
+                18.2
+            ],
+            "soft_interrupts_per_sec": 36372.0,
+            "soft_interrupts_since_system_start": 12138780,
+            "timestamp": 1574649154.9602373
+        },
+        {
+            "avg_cpu_utilization": 35.1,
+            "bytes_received_per_sec": 60442752.0,
+            "bytes_received_since_system_start": 31721058423,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397566,
+            "context_switches_per_sec": 36614.0,
+            "context_switches_since_system_start": 14892477,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                3.0,
+                24.0,
+                0.0,
+                0.0,
+                3.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38395.0,
+            "interrupts_since_system_start": 11890812,
+            "interval_index": 78,
+            "per_cpu_utilization": [
+                35.1
+            ],
+            "soft_interrupts_per_sec": 38571.0,
+            "soft_interrupts_since_system_start": 12177351,
+            "timestamp": 1574649155.9623017
+        },
+        {
+            "avg_cpu_utilization": 36.6,
+            "bytes_received_per_sec": 60297560.0,
+            "bytes_received_since_system_start": 31781355983,
+            "bytes_sent_per_sec": 79.0,
+            "bytes_sent_since_system_start": 96397645,
+            "context_switches_per_sec": 27866.0,
+            "context_switches_since_system_start": 14920343,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                8.0,
+                26.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38734.0,
+            "interrupts_since_system_start": 11929546,
+            "interval_index": 79,
+            "per_cpu_utilization": [
+                36.6
+            ],
+            "soft_interrupts_per_sec": 39086.0,
+            "soft_interrupts_since_system_start": 12216437,
+            "timestamp": 1574649156.9643846
+        },
+        {
+            "avg_cpu_utilization": 25.0,
+            "bytes_received_per_sec": 54353664.0,
+            "bytes_received_since_system_start": 31835709647,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397645,
+            "context_switches_per_sec": 32204.0,
+            "context_switches_since_system_start": 14952547,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                3.0,
+                30.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 36353.0,
+            "interrupts_since_system_start": 11965899,
+            "interval_index": 80,
+            "per_cpu_utilization": [
+                25.0
+            ],
+            "soft_interrupts_per_sec": 36574.0,
+            "soft_interrupts_since_system_start": 12253011,
+            "timestamp": 1574649157.9665737
+        },
+        {
+            "avg_cpu_utilization": 7.3,
+            "bytes_received_per_sec": 43869032.0,
+            "bytes_received_since_system_start": 31879578679,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397645,
+            "context_switches_per_sec": 37222.0,
+            "context_switches_since_system_start": 14989769,
+            "cpu_times_percent": [
+                0.0,
+                0.0,
+                1.0,
+                38.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 29258.0,
+            "interrupts_since_system_start": 11995157,
+            "interval_index": 81,
+            "per_cpu_utilization": [
+                7.3
+            ],
+            "soft_interrupts_per_sec": 29448.0,
+            "soft_interrupts_since_system_start": 12282459,
+            "timestamp": 1574649158.9684942
+        },
+        {
+            "avg_cpu_utilization": 6.3,
+            "bytes_received_per_sec": 43473984.0,
+            "bytes_received_since_system_start": 31923052663,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397645,
+            "context_switches_per_sec": 23274.0,
+            "context_switches_since_system_start": 15013043,
+            "cpu_times_percent": [
+                0.0,
+                0.0,
+                0.0,
+                45.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 28406.0,
+            "interrupts_since_system_start": 12023563,
+            "interval_index": 82,
+            "per_cpu_utilization": [
+                6.3
+            ],
+            "soft_interrupts_per_sec": 28744.0,
+            "soft_interrupts_since_system_start": 12311203,
+            "timestamp": 1574649159.9704804
+        },
+        {
+            "avg_cpu_utilization": 8.5,
+            "bytes_received_per_sec": 43556816.0,
+            "bytes_received_since_system_start": 31966609479,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397645,
+            "context_switches_per_sec": 26894.0,
+            "context_switches_since_system_start": 15039937,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                1.0,
+                43.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 26913.0,
+            "interrupts_since_system_start": 12050476,
+            "interval_index": 83,
+            "per_cpu_utilization": [
+                8.5
+            ],
+            "soft_interrupts_per_sec": 27344.0,
+            "soft_interrupts_since_system_start": 12338547,
+            "timestamp": 1574649160.9724905
+        },
+        {
+            "avg_cpu_utilization": 6.4,
+            "bytes_received_per_sec": 44303072.0,
+            "bytes_received_since_system_start": 32010912551,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397645,
+            "context_switches_per_sec": 24015.0,
+            "context_switches_since_system_start": 15063952,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                0.0,
+                44.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 28064.0,
+            "interrupts_since_system_start": 12078540,
+            "interval_index": 84,
+            "per_cpu_utilization": [
+                6.4
+            ],
+            "soft_interrupts_per_sec": 28399.0,
+            "soft_interrupts_since_system_start": 12366946,
+            "timestamp": 1574649161.9744291
+        },
+        {
+            "avg_cpu_utilization": 8.9,
+            "bytes_received_per_sec": 44580760.0,
+            "bytes_received_since_system_start": 32055493311,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397645,
+            "context_switches_per_sec": 27896.0,
+            "context_switches_since_system_start": 15091848,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                1.0,
+                41.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 29076.0,
+            "interrupts_since_system_start": 12107616,
+            "interval_index": 85,
+            "per_cpu_utilization": [
+                8.9
+            ],
+            "soft_interrupts_per_sec": 29389.0,
+            "soft_interrupts_since_system_start": 12396335,
+            "timestamp": 1574649162.9764712
+        },
+        {
+            "avg_cpu_utilization": 10.2,
+            "bytes_received_per_sec": 44584736.0,
+            "bytes_received_since_system_start": 32100078047,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397645,
+            "context_switches_per_sec": 23311.0,
+            "context_switches_since_system_start": 15115159,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                2.0,
+                44.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 27683.0,
+            "interrupts_since_system_start": 12135299,
+            "interval_index": 86,
+            "per_cpu_utilization": [
+                10.2
+            ],
+            "soft_interrupts_per_sec": 28086.0,
+            "soft_interrupts_since_system_start": 12424421,
+            "timestamp": 1574649163.9785461
+        },
+        {
+            "avg_cpu_utilization": 13.3,
+            "bytes_received_per_sec": 47541320.0,
+            "bytes_received_since_system_start": 32147619367,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397645,
+            "context_switches_per_sec": 28078.0,
+            "context_switches_since_system_start": 15143237,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                1.0,
+                39.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 30602.0,
+            "interrupts_since_system_start": 12165901,
+            "interval_index": 87,
+            "per_cpu_utilization": [
+                13.3
+            ],
+            "soft_interrupts_per_sec": 30916.0,
+            "soft_interrupts_since_system_start": 12455337,
+            "timestamp": 1574649164.9806302
+        },
+        {
+            "avg_cpu_utilization": 35.9,
+            "bytes_received_per_sec": 61576624.0,
+            "bytes_received_since_system_start": 32209195991,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397645,
+            "context_switches_per_sec": 29984.0,
+            "context_switches_since_system_start": 15173221,
+            "cpu_times_percent": [
+                8.0,
+                0.0,
+                4.0,
+                25.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39972.0,
+            "interrupts_since_system_start": 12205873,
+            "interval_index": 88,
+            "per_cpu_utilization": [
+                35.9
+            ],
+            "soft_interrupts_per_sec": 40242.0,
+            "soft_interrupts_since_system_start": 12495579,
+            "timestamp": 1574649165.9827971
+        },
+        {
+            "avg_cpu_utilization": 22.2,
+            "bytes_received_per_sec": 51027288.0,
+            "bytes_received_since_system_start": 32260223279,
+            "bytes_sent_per_sec": 79.0,
+            "bytes_sent_since_system_start": 96397724,
+            "context_switches_per_sec": 47671.0,
+            "context_switches_since_system_start": 15220892,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                2.0,
+                28.0,
+                0.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 33556.0,
+            "interrupts_since_system_start": 12239429,
+            "interval_index": 89,
+            "per_cpu_utilization": [
+                22.2
+            ],
+            "soft_interrupts_per_sec": 33665.0,
+            "soft_interrupts_since_system_start": 12529244,
+            "timestamp": 1574649166.984898
+        },
+        {
+            "avg_cpu_utilization": 24.2,
+            "bytes_received_per_sec": 57172432.0,
+            "bytes_received_since_system_start": 32317395711,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397724,
+            "context_switches_per_sec": 37501.0,
+            "context_switches_since_system_start": 15258393,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                2.0,
+                25.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 37981.0,
+            "interrupts_since_system_start": 12277410,
+            "interval_index": 90,
+            "per_cpu_utilization": [
+                24.2
+            ],
+            "soft_interrupts_per_sec": 38177.0,
+            "soft_interrupts_since_system_start": 12567421,
+            "timestamp": 1574649167.9868975
+        },
+        {
+            "avg_cpu_utilization": 30.6,
+            "bytes_received_per_sec": 60172440.0,
+            "bytes_received_since_system_start": 32377568151,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397724,
+            "context_switches_per_sec": 32246.0,
+            "context_switches_since_system_start": 15290639,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                3.0,
+                25.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39610.0,
+            "interrupts_since_system_start": 12317020,
+            "interval_index": 91,
+            "per_cpu_utilization": [
+                30.6
+            ],
+            "soft_interrupts_per_sec": 39875.0,
+            "soft_interrupts_since_system_start": 12607296,
+            "timestamp": 1574649168.9889576
+        },
+        {
+            "avg_cpu_utilization": 17.5,
+            "bytes_received_per_sec": 52776800.0,
+            "bytes_received_since_system_start": 32430344951,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397724,
+            "context_switches_per_sec": 27654.0,
+            "context_switches_since_system_start": 15318293,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                2.0,
+                33.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 34701.0,
+            "interrupts_since_system_start": 12351721,
+            "interval_index": 92,
+            "per_cpu_utilization": [
+                17.5
+            ],
+            "soft_interrupts_per_sec": 35048.0,
+            "soft_interrupts_since_system_start": 12642344,
+            "timestamp": 1574649169.9907606
+        },
+        {
+            "avg_cpu_utilization": 17.1,
+            "bytes_received_per_sec": 57546976.0,
+            "bytes_received_since_system_start": 32487891927,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397724,
+            "context_switches_per_sec": 30348.0,
+            "context_switches_since_system_start": 15348641,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                2.0,
+                29.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38035.0,
+            "interrupts_since_system_start": 12389756,
+            "interval_index": 93,
+            "per_cpu_utilization": [
+                17.1
+            ],
+            "soft_interrupts_per_sec": 38196.0,
+            "soft_interrupts_since_system_start": 12680540,
+            "timestamp": 1574649170.99291
+        },
+        {
+            "avg_cpu_utilization": 24.2,
+            "bytes_received_per_sec": 54076634.0,
+            "bytes_received_since_system_start": 32541968561,
+            "bytes_sent_per_sec": 42.0,
+            "bytes_sent_since_system_start": 96397766,
+            "context_switches_per_sec": 44095.0,
+            "context_switches_since_system_start": 15392736,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                1.0,
+                25.0,
+                0.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35923.0,
+            "interrupts_since_system_start": 12425679,
+            "interval_index": 94,
+            "per_cpu_utilization": [
+                24.2
+            ],
+            "soft_interrupts_per_sec": 36038.0,
+            "soft_interrupts_since_system_start": 12716578,
+            "timestamp": 1574649171.9946976
+        },
+        {
+            "avg_cpu_utilization": 27.8,
+            "bytes_received_per_sec": 55208320.0,
+            "bytes_received_since_system_start": 32597176881,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397766,
+            "context_switches_per_sec": 43967.0,
+            "context_switches_since_system_start": 15436703,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                3.0,
+                26.0,
+                0.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35581.0,
+            "interrupts_since_system_start": 12461260,
+            "interval_index": 95,
+            "per_cpu_utilization": [
+                27.8
+            ],
+            "soft_interrupts_per_sec": 35741.0,
+            "soft_interrupts_since_system_start": 12752319,
+            "timestamp": 1574649172.99682
+        },
+        {
+            "avg_cpu_utilization": 30.6,
+            "bytes_received_per_sec": 60531616.0,
+            "bytes_received_since_system_start": 32657708497,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397766,
+            "context_switches_per_sec": 30690.0,
+            "context_switches_since_system_start": 15467393,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                5.0,
+                25.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40264.0,
+            "interrupts_since_system_start": 12501524,
+            "interval_index": 96,
+            "per_cpu_utilization": [
+                30.6
+            ],
+            "soft_interrupts_per_sec": 40499.0,
+            "soft_interrupts_since_system_start": 12792818,
+            "timestamp": 1574649173.9989145
+        },
+        {
+            "avg_cpu_utilization": 33.3,
+            "bytes_received_per_sec": 60492712.0,
+            "bytes_received_since_system_start": 32718201209,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397766,
+            "context_switches_per_sec": 30476.0,
+            "context_switches_since_system_start": 15497869,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                5.0,
+                24.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40084.0,
+            "interrupts_since_system_start": 12541608,
+            "interval_index": 97,
+            "per_cpu_utilization": [
+                33.3
+            ],
+            "soft_interrupts_per_sec": 40352.0,
+            "soft_interrupts_since_system_start": 12833170,
+            "timestamp": 1574649175.0010316
+        },
+        {
+            "avg_cpu_utilization": 34.1,
+            "bytes_received_per_sec": 60680664.0,
+            "bytes_received_since_system_start": 32778881873,
+            "bytes_sent_per_sec": 79.0,
+            "bytes_sent_since_system_start": 96397845,
+            "context_switches_per_sec": 29051.0,
+            "context_switches_since_system_start": 15526920,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                7.0,
+                27.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38436.0,
+            "interrupts_since_system_start": 12580044,
+            "interval_index": 98,
+            "per_cpu_utilization": [
+                34.1
+            ],
+            "soft_interrupts_per_sec": 38795.0,
+            "soft_interrupts_since_system_start": 12871965,
+            "timestamp": 1574649176.0032244
+        },
+        {
+            "avg_cpu_utilization": 19.4,
+            "bytes_received_per_sec": 52409360.0,
+            "bytes_received_since_system_start": 32831291233,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397845,
+            "context_switches_per_sec": 48766.0,
+            "context_switches_since_system_start": 15575686,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                1.0,
+                25.0,
+                0.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 34841.0,
+            "interrupts_since_system_start": 12614885,
+            "interval_index": 99,
+            "per_cpu_utilization": [
+                19.4
+            ],
+            "soft_interrupts_per_sec": 34951.0,
+            "soft_interrupts_since_system_start": 12906916,
+            "timestamp": 1574649177.005295
+        },
+        {
+            "avg_cpu_utilization": 35.9,
+            "bytes_received_per_sec": 58784536.0,
+            "bytes_received_since_system_start": 32890075769,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397845,
+            "context_switches_per_sec": 32462.0,
+            "context_switches_since_system_start": 15608148,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                4.0,
+                25.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39177.0,
+            "interrupts_since_system_start": 12654062,
+            "interval_index": 100,
+            "per_cpu_utilization": [
+                35.9
+            ],
+            "soft_interrupts_per_sec": 39475.0,
+            "soft_interrupts_since_system_start": 12946391,
+            "timestamp": 1574649178.0071137
+        },
+        {
+            "avg_cpu_utilization": 27.0,
+            "bytes_received_per_sec": 61383632.0,
+            "bytes_received_since_system_start": 32951459401,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397845,
+            "context_switches_per_sec": 27015.0,
+            "context_switches_since_system_start": 15635163,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                4.0,
+                27.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39610.0,
+            "interrupts_since_system_start": 12693672,
+            "interval_index": 101,
+            "per_cpu_utilization": [
+                27.0
+            ],
+            "soft_interrupts_per_sec": 39973.0,
+            "soft_interrupts_since_system_start": 12986364,
+            "timestamp": 1574649179.0090098
+        },
+        {
+            "avg_cpu_utilization": 39.0,
+            "bytes_received_per_sec": 60307480.0,
+            "bytes_received_since_system_start": 33011766881,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96397845,
+            "context_switches_per_sec": 27068.0,
+            "context_switches_since_system_start": 15662231,
+            "cpu_times_percent": [
+                6.0,
+                0.0,
+                6.0,
+                25.0,
+                0.0,
+                0.0,
+                3.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39786.0,
+            "interrupts_since_system_start": 12733458,
+            "interval_index": 102,
+            "per_cpu_utilization": [
+                39.0
+            ],
+            "soft_interrupts_per_sec": 40248.0,
+            "soft_interrupts_since_system_start": 13026612,
+            "timestamp": 1574649180.0112078
+        },
+        {
+            "avg_cpu_utilization": 20.6,
+            "bytes_received_per_sec": 56297136.0,
+            "bytes_received_since_system_start": 33068064017,
+            "bytes_sent_per_sec": 639.0,
+            "bytes_sent_since_system_start": 96398484,
+            "context_switches_per_sec": 35957.0,
+            "context_switches_since_system_start": 15698188,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                2.0,
+                27.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 37601.0,
+            "interrupts_since_system_start": 12771059,
+            "interval_index": 103,
+            "per_cpu_utilization": [
+                20.6
+            ],
+            "soft_interrupts_per_sec": 37809.0,
+            "soft_interrupts_since_system_start": 13064421,
+            "timestamp": 1574649181.0130227
+        },
+        {
+            "avg_cpu_utilization": 16.7,
+            "bytes_received_per_sec": 45088968.0,
+            "bytes_received_since_system_start": 33113152985,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398484,
+            "context_switches_per_sec": 41934.0,
+            "context_switches_since_system_start": 15740122,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                0.0,
+                35.0,
+                0.0,
+                0.0,
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 28436.0,
+            "interrupts_since_system_start": 12799495,
+            "interval_index": 104,
+            "per_cpu_utilization": [
+                16.7
+            ],
+            "soft_interrupts_per_sec": 28696.0,
+            "soft_interrupts_since_system_start": 13093117,
+            "timestamp": 1574649182.0150945
+        },
+        {
+            "avg_cpu_utilization": 16.7,
+            "bytes_received_per_sec": 47359248.0,
+            "bytes_received_since_system_start": 33160512233,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398484,
+            "context_switches_per_sec": 40560.0,
+            "context_switches_since_system_start": 15780682,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                1.0,
+                35.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 30386.0,
+            "interrupts_since_system_start": 12829881,
+            "interval_index": 105,
+            "per_cpu_utilization": [
+                16.7
+            ],
+            "soft_interrupts_per_sec": 31034.0,
+            "soft_interrupts_since_system_start": 13124151,
+            "timestamp": 1574649183.0170674
+        },
+        {
+            "avg_cpu_utilization": 15.0,
+            "bytes_received_per_sec": 46908048.0,
+            "bytes_received_since_system_start": 33207420281,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398484,
+            "context_switches_per_sec": 41870.0,
+            "context_switches_since_system_start": 15822552,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                2.0,
+                34.0,
+                0.0,
+                0.0,
+                0.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 30435.0,
+            "interrupts_since_system_start": 12860316,
+            "interval_index": 106,
+            "per_cpu_utilization": [
+                15.0
+            ],
+            "soft_interrupts_per_sec": 30667.0,
+            "soft_interrupts_since_system_start": 13154818,
+            "timestamp": 1574649184.019094
+        },
+        {
+            "avg_cpu_utilization": 21.6,
+            "bytes_received_per_sec": 51449096.0,
+            "bytes_received_since_system_start": 33258869377,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398484,
+            "context_switches_per_sec": 43621.0,
+            "context_switches_since_system_start": 15866173,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                2.0,
+                29.0,
+                0.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 32655.0,
+            "interrupts_since_system_start": 12892971,
+            "interval_index": 107,
+            "per_cpu_utilization": [
+                21.6
+            ],
+            "soft_interrupts_per_sec": 33361.0,
+            "soft_interrupts_since_system_start": 13188179,
+            "timestamp": 1574649185.0211186
+        },
+        {
+            "avg_cpu_utilization": 28.1,
+            "bytes_received_per_sec": 58000696.0,
+            "bytes_received_since_system_start": 33316870073,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398484,
+            "context_switches_per_sec": 44972.0,
+            "context_switches_since_system_start": 15911145,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                4.0,
+                23.0,
+                0.0,
+                0.0,
+                1.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 37664.0,
+            "interrupts_since_system_start": 12930635,
+            "interval_index": 108,
+            "per_cpu_utilization": [
+                28.1
+            ],
+            "soft_interrupts_per_sec": 37821.0,
+            "soft_interrupts_since_system_start": 13226000,
+            "timestamp": 1574649186.0231938
+        },
+        {
+            "avg_cpu_utilization": 32.3,
+            "bytes_received_per_sec": 58912496.0,
+            "bytes_received_since_system_start": 33375782569,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398484,
+            "context_switches_per_sec": 42434.0,
+            "context_switches_since_system_start": 15953579,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                5.0,
+                21.0,
+                0.0,
+                0.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38560.0,
+            "interrupts_since_system_start": 12969195,
+            "interval_index": 109,
+            "per_cpu_utilization": [
+                32.3
+            ],
+            "soft_interrupts_per_sec": 38728.0,
+            "soft_interrupts_since_system_start": 13264728,
+            "timestamp": 1574649187.025243
+        },
+        {
+            "avg_cpu_utilization": 35.9,
+            "bytes_received_per_sec": 60012808.0,
+            "bytes_received_since_system_start": 33435795377,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398484,
+            "context_switches_per_sec": 35715.0,
+            "context_switches_since_system_start": 15989294,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                5.0,
+                25.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38928.0,
+            "interrupts_since_system_start": 13008123,
+            "interval_index": 110,
+            "per_cpu_utilization": [
+                35.9
+            ],
+            "soft_interrupts_per_sec": 39155.0,
+            "soft_interrupts_since_system_start": 13303883,
+            "timestamp": 1574649188.027458
+        },
+        {
+            "avg_cpu_utilization": 32.4,
+            "bytes_received_per_sec": 59058216.0,
+            "bytes_received_since_system_start": 33494853593,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398484,
+            "context_switches_per_sec": 30760.0,
+            "context_switches_since_system_start": 16020054,
+            "cpu_times_percent": [
+                4.0,
+                0.0,
+                6.0,
+                25.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 39401.0,
+            "interrupts_since_system_start": 13047524,
+            "interval_index": 111,
+            "per_cpu_utilization": [
+                32.4
+            ],
+            "soft_interrupts_per_sec": 39640.0,
+            "soft_interrupts_since_system_start": 13343523,
+            "timestamp": 1574649189.0295966
+        },
+        {
+            "avg_cpu_utilization": 17.2,
+            "bytes_received_per_sec": 53044064.0,
+            "bytes_received_since_system_start": 33547897657,
+            "bytes_sent_per_sec": 79.0,
+            "bytes_sent_since_system_start": 96398563,
+            "context_switches_per_sec": 51553.0,
+            "context_switches_since_system_start": 16071607,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                1.0,
+                24.0,
+                0.0,
+                0.0,
+                0.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35592.0,
+            "interrupts_since_system_start": 13083116,
+            "interval_index": 112,
+            "per_cpu_utilization": [
+                17.2
+            ],
+            "soft_interrupts_per_sec": 35686.0,
+            "soft_interrupts_since_system_start": 13379209,
+            "timestamp": 1574649190.0317185
+        },
+        {
+            "avg_cpu_utilization": 22.6,
+            "bytes_received_per_sec": 53187984.0,
+            "bytes_received_since_system_start": 33601085641,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398563,
+            "context_switches_per_sec": 51117.0,
+            "context_switches_since_system_start": 16122724,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                1.0,
+                24.0,
+                0.0,
+                0.0,
+                1.0,
+                3.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 35433.0,
+            "interrupts_since_system_start": 13118549,
+            "interval_index": 113,
+            "per_cpu_utilization": [
+                22.6
+            ],
+            "soft_interrupts_per_sec": 35536.0,
+            "soft_interrupts_since_system_start": 13414745,
+            "timestamp": 1574649191.0339663
+        },
+        {
+            "avg_cpu_utilization": 34.1,
+            "bytes_received_per_sec": 58733952.0,
+            "bytes_received_since_system_start": 33659819593,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398563,
+            "context_switches_per_sec": 32937.0,
+            "context_switches_since_system_start": 16155661,
+            "cpu_times_percent": [
+                5.0,
+                0.0,
+                5.0,
+                27.0,
+                0.0,
+                0.0,
+                2.0,
+                2.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 38306.0,
+            "interrupts_since_system_start": 13156855,
+            "interval_index": 114,
+            "per_cpu_utilization": [
+                34.1
+            ],
+            "soft_interrupts_per_sec": 38487.0,
+            "soft_interrupts_since_system_start": 13453232,
+            "timestamp": 1574649192.0360413
+        },
+        {
+            "avg_cpu_utilization": 29.7,
+            "bytes_received_per_sec": 60763688.0,
+            "bytes_received_since_system_start": 33720583281,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398563,
+            "context_switches_per_sec": 28311.0,
+            "context_switches_since_system_start": 16183972,
+            "cpu_times_percent": [
+                3.0,
+                0.0,
+                5.0,
+                26.0,
+                0.0,
+                0.0,
+                2.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 40140.0,
+            "interrupts_since_system_start": 13196995,
+            "interval_index": 115,
+            "per_cpu_utilization": [
+                29.7
+            ],
+            "soft_interrupts_per_sec": 40342.0,
+            "soft_interrupts_since_system_start": 13493574,
+            "timestamp": 1574649193.0381458
+        },
+        {
+            "avg_cpu_utilization": 14.0,
+            "bytes_received_per_sec": 50481968.0,
+            "bytes_received_since_system_start": 33771065249,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398563,
+            "context_switches_per_sec": 25363.0,
+            "context_switches_since_system_start": 16209335,
+            "cpu_times_percent": [
+                2.0,
+                0.0,
+                2.0,
+                37.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 33155.0,
+            "interrupts_since_system_start": 13230150,
+            "interval_index": 116,
+            "per_cpu_utilization": [
+                14.0
+            ],
+            "soft_interrupts_per_sec": 33514.0,
+            "soft_interrupts_since_system_start": 13527088,
+            "timestamp": 1574649194.0403156
+        },
+        {
+            "avg_cpu_utilization": 11.4,
+            "bytes_received_per_sec": 48738656.0,
+            "bytes_received_since_system_start": 33819803905,
+            "bytes_sent_per_sec": 0.0,
+            "bytes_sent_since_system_start": 96398563,
+            "context_switches_per_sec": 23094.0,
+            "context_switches_since_system_start": 16232429,
+            "cpu_times_percent": [
+                1.0,
+                0.0,
+                2.0,
+                39.0,
+                0.0,
+                0.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "interrupts_per_sec": 31998.0,
+            "interrupts_since_system_start": 13262148,
+            "interval_index": 117,
+            "per_cpu_utilization": [
+                11.4
+            ],
+            "soft_interrupts_per_sec": 32277.0,
+            "soft_interrupts_since_system_start": 13559365,
+            "timestamp": 1574649195.0421004
+        }
+    ],
+    "protocol": "udp",
+    "role": "server",
+    "server": {
+        "bytes_per_second": 32902.6024095
+    },
+    "target_hostname": "10.8.0.1"
+}
