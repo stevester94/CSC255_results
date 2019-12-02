@@ -10,4 +10,5 @@ if __name__ == "__main__":
         res = json.load(f)
 print("res has the results list")
 print("pp.pprint(__)")
+print('pp.pprint( [e for e in res if e["Protocol"] == "tcp" and "short" in e["Test Name"]])')
 
