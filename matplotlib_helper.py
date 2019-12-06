@@ -58,10 +58,10 @@ def build_bar_graph(
     ax.set_ylabel(y_label)
     ax.set_title(title)
     ax.set_xticks(x)
-    ax.set_xticklabels(labels)
+    ax.set_xticklabels(x_labels)
     ax.legend()
 
-    for r in rects: autolabel(r)
+    # for r in rects: autolabel(r)
     # autolabel(rects1)
     # autolabel(rects2)
 
