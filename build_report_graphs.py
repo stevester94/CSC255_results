@@ -7,10 +7,9 @@ import sys
 import pprint
 pp = pprint.PrettyPrinter()
 
-
-
-# Where selected results is a list containing the elements for Regular, Wireguard, and OpenVPN
-def gen_client_summary(selected_results):
+# Returns ((regular_tcp, wireguard_tcp, openvpn_tcp), (regular_udp, wireguard_udp, openvpn_udp))
+# Since this is actually common to both client and server, break it out here for reuse
+def parse_out_sorted_results(selected_results):
     wireguard_tcp = None
     regular_tcp = None
     openvpn_tcp = None
@@ -34,9 +33,59 @@ def gen_client_summary(selected_results):
         pp.pprint(selected_results)
         sys.exit(1)
 
+    return ((regular_tcp, wireguard_tcp, openvpn_tcp) , (regular_udp, wireguard_udp, openvpn_udp))
+    
+
+# Where selected results is a list containing the elements for Regular, Wireguard, and OpenVPN
+def gen_client_summary(selected_results, title_preamble):
     # So we can make use of list comprehensions
-    sorted_results_tcp = (regular_tcp, wireguard_tcp, openvpn_tcp)
-    sorted_results_udp = (regular_udp, wireguard_udp, openvpn_udp)
+    sorted_results_tcp, sorted_results_udp = parse_out_sorted_results(selected_results)
+    
+    labels = ("Regular", "Wireguard", "OpenVPN")
+
+    
+
+    # throughput_graph
+    fig, axes = plt.subplots()
+    groups = [
+        ([s["Avg MB Sent/sec (Effective)"] for s in sorted_results_tcp], "tcp"),
+        ([s["Avg MB Sent/sec (Effective)"] for s in sorted_results_udp], "udp"),
+    ]
+    build_bar_graph(groups, labels, "MB/sec", "Long Distance Client Throughput", axes)
+    plt.savefig('filename.png', dpi=300)
+
+    # rtt_graph
+    fig, axes = plt.subplots()
+    groups = [
+        ([s["Avg RTT milliseconds"] for s in sorted_results_tcp], "tcp"),
+        # ([s["Avg RTT milliseconds"] for s in sorted_results_udp], "udp"),
+    ]
+    build_bar_graph(groups, labels, "ms", title_preamble + " Client RTT", axes, show_legend=False)
+    plt.savefig('filename2.png', dpi=300)
+
+    # cpu_usage_graph
+    fig, axes = plt.subplots()
+    groups = [
+        ([s["Avg CPU usage"] for s in sorted_results_tcp], "tcp"),
+        ([s["Avg CPU usage"] for s in sorted_results_udp], "udp"),
+    ]
+    build_bar_graph(groups, labels, "Percent", title_preamble + " Client CPU Usage", axes)
+    plt.savefig('filename3.png', dpi=300)
+
+    # rtt_graph
+    # send_overhead_graph
+    # cpu_usage_graph
+
+    # plt.show()
+    # plt.tight_layout()
+    # plt.savefig('filename.png', dpi=300)
+    # plt.subplots_adjust(hspace = 0.8)
+    plt.savefig('filename.png', dpi=300)
+
+# Where selected results is a list containing the elements for Regular, Wireguard, and OpenVPN
+def gen_server_summary(selected_results, title_preamble):
+    # So we can make use of list comprehensions
+    sorted_results_tcp, sorted_results_udp = parse_out_sorted_results(selected_results)
     
     labels = ("Regular", "Wireguard", "OpenVPN")
 
@@ -44,52 +93,64 @@ def gen_client_summary(selected_results):
 
     # throughput_graph
     groups = [
-        ([s["Avg MB Sent/sec (Effective)"] for s in sorted_results_tcp], "tcp"),
-        # ([s["Avg MB Sent/sec (Effective)"] for s in sorted_results_udp], "udp"),
+        ([s["Avg MB Received/sec (Effective)"] for s in sorted_results_tcp], "tcp"),
+        ([s["Avg MB Received/sec (Effective)"] for s in sorted_results_udp], "udp"),
     ]
-    build_bar_graph(groups, labels, "MB/sec", "Throughput", axes[0][0])
+    build_bar_graph(groups, labels, "MB/sec", title_preamble + " Server Throughput", axes[0][0])
 
     # rtt_graph
-    # send_overhead_graph
+    groups = [
+        ([s["Avg RTT milliseconds"] for s in sorted_results_tcp], "tcp"),
+        # ([s["Avg RTT milliseconds"] for s in sorted_results_udp], "udp"),
+    ]
+    build_bar_graph(groups, labels, "ms", title_preamble + " Server RTT", axes[0][1], show_legend=False)
+
     # cpu_usage_graph
-    
+    groups = [
+        ([s["Avg CPU usage"] for s in sorted_results_tcp], "tcp"),
+        ([s["Avg CPU usage"] for s in sorted_results_udp], "udp"),
+    ]
+    build_bar_graph(groups, labels, "Percent", title_preamble + " Server CPU Usage", axes[1][1])
 
-
-    fig.tight_layout()
     plt.show()
 
 
 
-
 client_results = None
+server_results = None
+
+
+
 with open("client_results.json", "r") as f:
     client_results = json.load(f)
+
+with open("server_results.json", "r") as f:
+    server_results = json.load(f)
+
+# What a fucking pain. Need to copy the RTT results from the client to server
+server_dict = {}
+for s in server_results:
+    server_dict[s["Test Name"]] = s
+
+for c in client_results:
+    server_test_name = c["Test Name"][:-6] + "server"
+    server_dict[server_test_name]["Avg RTT milliseconds"] = c["Avg RTT milliseconds"]
+
+pp.pprint(server_results)
+
+
+
+# ##################
+# # Long Distance
+# ##################
+longhaul_results = [e for e in client_results if "long" in e["Test Name"]]
+gen_client_summary(longhaul_results, "Longhaul")
+
+
+
 
 ##################
 # Long Distance
 ##################
-longhaul_results = [e for e in client_results if "long" in e["Test Name"]]
-gen_client_summary(longhaul_results)
-
-
-
-
-    
-
-
-
-
-# fig, axes = plt.subplots(2,2)
-# ax = axes[0][0]
-
-# labels = ['Regular', 'Wireguard', 'OpenVPN']
-# groups = [
-#     ([20, 34, 30], "tcp"),
-#     # ([25, 32, 1000], "udp"),
-# ]
-
-# build_bar_graph(groups, labels, "MB/sec", "Throughput", ax)
-
-# fig.tight_layout()
-
-# plt.show()
+# longhaul_results = [e for e in server_results if "long" in e["Test Name"]]
+# gen_server_summary(longhaul_results, "Longhaul")

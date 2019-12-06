@@ -19,6 +19,7 @@ def build_bar_graph(
     title,
     ax,
     bar_width=0.35,
+    show_legend=True
 ):
     def autolabel(rects):
         """Attach a text label above each bar in *rects*, displaying its height."""
@@ -51,19 +52,17 @@ def build_bar_graph(
         new_bar = ax.bar(x_positions, y_positions, total_width/num_groups, label=group[1], align='edge')
         rects.append(new_bar)
 
-    # rects1 = ax.bar(x - width/num_elements_per_group, men_means, width, label='Men')
-    # rects2 = ax.bar(x + width/num_elements_per_group, women_means, width, label='Women')
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
     ax.set_ylabel(y_label)
     ax.set_title(title)
     ax.set_xticks(x)
     ax.set_xticklabels(x_labels)
-    ax.legend()
+    if show_legend:
+        ax.legend()
 
-    # for r in rects: autolabel(r)
-    # autolabel(rects1)
-    # autolabel(rects2)
+    
+    for r in rects: autolabel(r)
 
 
 if __name__ == "__main__":
