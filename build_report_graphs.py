@@ -46,41 +46,32 @@ def gen_client_summary(selected_results, title_preamble):
     
 
     # throughput_graph
-    fig, axes = plt.subplots()
+    _, axes = plt.subplots()
     groups = [
         ([s["Avg MB Sent/sec (Effective)"] for s in sorted_results_tcp], "tcp"),
         ([s["Avg MB Sent/sec (Effective)"] for s in sorted_results_udp], "udp"),
     ]
-    build_bar_graph(groups, labels, "MB/sec", "Long Distance Client Throughput", axes)
-    plt.savefig('filename.png', dpi=300)
+    build_bar_graph(groups, labels, "MB/sec", title_preamble+" Client Throughput", axes)
+    plt.savefig(title_preamble+'_client_throughput.png', dpi=300)
 
     # rtt_graph
-    fig, axes = plt.subplots()
+    _, axes = plt.subplots()
     groups = [
         ([s["Avg RTT milliseconds"] for s in sorted_results_tcp], "tcp"),
         # ([s["Avg RTT milliseconds"] for s in sorted_results_udp], "udp"),
     ]
     build_bar_graph(groups, labels, "ms", title_preamble + " Client RTT", axes, show_legend=False)
-    plt.savefig('filename2.png', dpi=300)
+    plt.savefig(title_preamble+'_client_rtt.png', dpi=300)
 
     # cpu_usage_graph
-    fig, axes = plt.subplots()
+    _, axes = plt.subplots()
     groups = [
         ([s["Avg CPU usage"] for s in sorted_results_tcp], "tcp"),
         ([s["Avg CPU usage"] for s in sorted_results_udp], "udp"),
     ]
     build_bar_graph(groups, labels, "Percent", title_preamble + " Client CPU Usage", axes)
-    plt.savefig('filename3.png', dpi=300)
+    plt.savefig(title_preamble+'_client_cpu.png', dpi=300)
 
-    # rtt_graph
-    # send_overhead_graph
-    # cpu_usage_graph
-
-    # plt.show()
-    # plt.tight_layout()
-    # plt.savefig('filename.png', dpi=300)
-    # plt.subplots_adjust(hspace = 0.8)
-    plt.savefig('filename.png', dpi=300)
 
 # Where selected results is a list containing the elements for Regular, Wireguard, and OpenVPN
 def gen_server_summary(selected_results, title_preamble):
@@ -89,30 +80,32 @@ def gen_server_summary(selected_results, title_preamble):
     
     labels = ("Regular", "Wireguard", "OpenVPN")
 
-    fig, axes = plt.subplots(2,2)
-
     # throughput_graph
+    _, axes = plt.subplots()
     groups = [
         ([s["Avg MB Received/sec (Effective)"] for s in sorted_results_tcp], "tcp"),
         ([s["Avg MB Received/sec (Effective)"] for s in sorted_results_udp], "udp"),
     ]
-    build_bar_graph(groups, labels, "MB/sec", title_preamble + " Server Throughput", axes[0][0])
+    build_bar_graph(groups, labels, "MB/sec", title_preamble + " Server Throughput", axes)
+    plt.savefig(title_preamble+'_server_throughput.png', dpi=300)
 
     # rtt_graph
+    _, axes = plt.subplots()
     groups = [
         ([s["Avg RTT milliseconds"] for s in sorted_results_tcp], "tcp"),
         # ([s["Avg RTT milliseconds"] for s in sorted_results_udp], "udp"),
     ]
-    build_bar_graph(groups, labels, "ms", title_preamble + " Server RTT", axes[0][1], show_legend=False)
+    build_bar_graph(groups, labels, "ms", title_preamble + " Server RTT", axes, show_legend=False)
+    plt.savefig(title_preamble+'_server_rtt.png', dpi=300)
 
     # cpu_usage_graph
+    _, axes = plt.subplots()
     groups = [
         ([s["Avg CPU usage"] for s in sorted_results_tcp], "tcp"),
         ([s["Avg CPU usage"] for s in sorted_results_udp], "udp"),
     ]
-    build_bar_graph(groups, labels, "Percent", title_preamble + " Server CPU Usage", axes[1][1])
-
-    plt.show()
+    build_bar_graph(groups, labels, "Percent", title_preamble + " Server CPU Usage", axes)
+    plt.savefig(title_preamble+'_server_cpu.png', dpi=300)
 
 
 
@@ -152,5 +145,5 @@ gen_client_summary(longhaul_results, "Longhaul")
 ##################
 # Long Distance
 ##################
-# longhaul_results = [e for e in server_results if "long" in e["Test Name"]]
-# gen_server_summary(longhaul_results, "Longhaul")
+longhaul_results = [e for e in server_results if "long" in e["Test Name"]]
+gen_server_summary(longhaul_results, "Longhaul")
