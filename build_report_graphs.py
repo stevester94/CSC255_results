@@ -167,21 +167,21 @@ for c in client_results:
 ##################
 
 # Client
-# longhaul_results = [e for e in client_results if "long" in e["Test Name"]]
-# gen_client_summary(longhaul_results, "Longhaul")
+longhaul_results = [e for e in client_results if "long" in e["Test Name"]]
+gen_client_summary(longhaul_results, "Longhaul")
 
-# # Server
-# longhaul_results = [e for e in server_results if "long" in e["Test Name"]]
-# gen_server_summary(longhaul_results, "Longhaul")
+# Server
+longhaul_results = [e for e in server_results if "long" in e["Test Name"]]
+gen_server_summary(longhaul_results, "Longhaul")
 
-# ###################
-# # Short Distance
-# # Only need server for this one, since client results are doodoo
-# ###################
+###################
+# Short Distance
+# Only need server for this one, since client results are doodoo
+###################
 
-# # Server
-# shorthaul_resuls = [e for e in server_results if "short" in e["Test Name"]]
-# gen_server_summary(shorthaul_resuls, "Shorthaul")
+# Server
+shorthaul_resuls = [e for e in server_results if "short" in e["Test Name"]]
+gen_server_summary(shorthaul_resuls, "Shorthaul")
 
 # ##########################
 # # Local VM - One Core
