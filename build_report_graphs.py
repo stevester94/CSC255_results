@@ -107,6 +107,23 @@ def gen_server_summary(selected_results, title_preamble):
     build_bar_graph(groups, labels, "Percent", title_preamble + " Server CPU Usage", axes)
     plt.savefig(title_preamble+'_server_cpu.png', dpi=300)
 
+# Where selected results is a list containing the elements for Regular, Wireguard, and OpenVPN
+# We only use the TCP results though
+def gen_context_metrics(selected_results, title_preamble):
+    sorted_results_tcp, sorted_results_udp = parse_out_sorted_results(selected_results)
+
+    labels = ("Regular", "Wireguard", "OpenVPN")
+
+    # Context switch bar graph
+    _, axes = plt.subplots()
+    groups = [
+        ([s["Avg context switches/second"] for s in sorted_results_tcp], "tcp"),
+    ]
+    build_bar_graph(groups, labels, "Ctx switches/sec", title_preamble + " Server Throughput", axes, show_legend=False)
+    plt.savefig(title_preamble+'_context_switches_bar.png', dpi=300)
+
+
+
 
 
 client_results = None
@@ -133,17 +150,32 @@ pp.pprint(server_results)
 
 
 
-# ##################
-# # Long Distance
-# ##################
-longhaul_results = [e for e in client_results if "long" in e["Test Name"]]
-gen_client_summary(longhaul_results, "Longhaul")
-
-
-
-
 ##################
 # Long Distance
 ##################
-longhaul_results = [e for e in server_results if "long" in e["Test Name"]]
-gen_server_summary(longhaul_results, "Longhaul")
+
+# # Client
+# longhaul_results = [e for e in client_results if "long" in e["Test Name"]]
+# gen_client_summary(longhaul_results, "Longhaul")
+
+# # Server
+# longhaul_results = [e for e in server_results if "long" in e["Test Name"]]
+# gen_server_summary(longhaul_results, "Longhaul")
+
+# ###################
+# # Short Distance
+# # Only need server for this one, since client results are doodoo
+# ###################
+
+# # Server
+# shorthaul_resuls = [e for e in server_results if "short" in e["Test Name"]]
+# gen_server_summary(shorthaul_resuls, "Shorthaul")
+
+##########################
+# Local VM - One Core
+##########################
+# Server
+local_vm_one_core = [e for e in server_results if "one_core" in e["Test Name"]]
+gen_server_summary(local_vm_one_core, "Local VM - One Core")
+gen_context_metrics(local_vm_one_core, "Local VM - One Core")
+

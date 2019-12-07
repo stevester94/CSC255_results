@@ -9,6 +9,7 @@
         "Avg MB Sent/sec (System)": "2.93 MB/sec",
         "Avg MB Received/sec (System)": "0.11 MB/sec",
         "Target Hostname": "10.8.0.1",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 168.46,
         "Send Overhead %": 8.79,
         "Avg MB Sent/sec (Effective)": 2.7,
@@ -24,6 +25,7 @@
         "Avg MB Sent/sec (System)": "37.73 MB/sec",
         "Avg MB Received/sec (System)": "0.00 MB/sec",
         "Target Hostname": "10.8.0.1",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 168.4,
         "Send Overhead %": 0.0,
         "Avg MB Sent/sec (Effective)": 542.26,
@@ -39,6 +41,7 @@
         "Avg MB Sent/sec (System)": "2.51 MB/sec",
         "Avg MB Received/sec (System)": "0.02 MB/sec",
         "Target Hostname": "aws_singapore.ssmackey.com",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 163.27,
         "Send Overhead %": 0.79,
         "Avg MB Sent/sec (Effective)": 2.49,
@@ -54,6 +57,7 @@
         "Avg MB Sent/sec (System)": "85.29 MB/sec",
         "Avg MB Received/sec (System)": "0.00 MB/sec",
         "Target Hostname": "aws_singapore.ssmackey.com",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 163.01,
         "Send Overhead %": 2.72,
         "Avg MB Sent/sec (Effective)": 83.03,
@@ -69,6 +73,7 @@
         "Avg MB Sent/sec (System)": "3.88 MB/sec",
         "Avg MB Received/sec (System)": "0.03 MB/sec",
         "Target Hostname": "10.9.0.200",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 167.8,
         "Send Overhead %": 2.27,
         "Avg MB Sent/sec (Effective)": 3.79,
@@ -84,6 +89,7 @@
         "Avg MB Sent/sec (System)": "225.90 MB/sec",
         "Avg MB Received/sec (System)": "0.00 MB/sec",
         "Target Hostname": "10.9.0.200",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 168.23,
         "Send Overhead %": 0.0,
         "Avg MB Sent/sec (Effective)": 466.67,
@@ -99,6 +105,7 @@
         "Avg MB Sent/sec (System)": "8.41 MB/sec",
         "Avg MB Received/sec (System)": "0.30 MB/sec",
         "Target Hostname": "10.8.0.1",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 1.06,
         "Send Overhead %": 4.31,
         "Avg MB Sent/sec (Effective)": 8.06,
@@ -114,6 +121,7 @@
         "Avg MB Sent/sec (System)": "8.35 MB/sec",
         "Avg MB Received/sec (System)": "0.03 MB/sec",
         "Target Hostname": "aws_oregon_short_1.ssmackey.com",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 0.94,
         "Send Overhead %": 0.0,
         "Avg MB Sent/sec (Effective)": 8.82,
@@ -129,6 +137,7 @@
         "Avg MB Sent/sec (System)": "275.48 MB/sec",
         "Avg MB Received/sec (System)": "0.00 MB/sec",
         "Target Hostname": "aws_oregon_short_1.ssmackey.com",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 0.51,
         "Send Overhead %": 0.58,
         "Avg MB Sent/sec (Effective)": 273.88,
@@ -144,6 +153,7 @@
         "Avg MB Sent/sec (System)": "3191.48 MB/sec",
         "Avg MB Received/sec (System)": "3191.48 MB/sec",
         "Target Hostname": "127.0.0.1",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 0.06,
         "Send Overhead %": 0.21,
         "Avg MB Sent/sec (Effective)": 3184.9,
@@ -159,100 +169,11 @@
         "Avg MB Sent/sec (System)": "1725.69 MB/sec",
         "Avg MB Received/sec (System)": "1725.69 MB/sec",
         "Target Hostname": "127.0.0.1",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 0.06,
         "Send Overhead %": 0.18,
         "Avg MB Sent/sec (Effective)": 1722.5,
         "Test Name": "local_regular_udp_client"
-    },
-    {
-        "Protocol": "tcp",
-        "Role": "client",
-        "Avg CPU usage": 35,
-        "Avg context switches/second": 1534,
-        "Avg interrupts/second": 13540,
-        "Avg soft interrupts/second": 13367,
-        "Avg MB Sent/sec (System)": "26.41 MB/sec",
-        "Avg MB Received/sec (System)": "1.06 MB/sec",
-        "Target Hostname": "10.8.0.1",
-        "Avg RTT milliseconds": 0.56,
-        "Send Overhead %": 9.54,
-        "Avg MB Sent/sec (Effective)": 24.11,
-        "Test Name": "vm_openvpn_tcp_client"
-    },
-    {
-        "Protocol": "udp",
-        "Role": "client",
-        "Avg CPU usage": 99,
-        "Avg context switches/second": 894,
-        "Avg interrupts/second": 12922,
-        "Avg soft interrupts/second": 12917,
-        "Avg MB Sent/sec (System)": "19.46 MB/sec",
-        "Avg MB Received/sec (System)": "0.00 MB/sec",
-        "Target Hostname": "10.8.0.1",
-        "Avg RTT milliseconds": 0.51,
-        "Send Overhead %": 0.0,
-        "Avg MB Sent/sec (Effective)": 759.91,
-        "Test Name": "vm_openvpn_udp_client"
-    },
-    {
-        "Protocol": "tcp",
-        "Role": "client",
-        "Avg CPU usage": 18,
-        "Avg context switches/second": 686,
-        "Avg interrupts/second": 4432,
-        "Avg soft interrupts/second": 4863,
-        "Avg MB Sent/sec (System)": "303.53 MB/sec",
-        "Avg MB Received/sec (System)": "0.43 MB/sec",
-        "Target Hostname": "192.168.86.100",
-        "Avg RTT milliseconds": 0.38,
-        "Send Overhead %": 4.7,
-        "Avg MB Sent/sec (Effective)": 289.91,
-        "Test Name": "vm_regular_tcp_client"
-    },
-    {
-        "Protocol": "udp",
-        "Role": "client",
-        "Avg CPU usage": 99,
-        "Avg context switches/second": 46,
-        "Avg interrupts/second": 34421,
-        "Avg soft interrupts/second": 34414,
-        "Avg MB Sent/sec (System)": "91.25 MB/sec",
-        "Avg MB Received/sec (System)": "0.00 MB/sec",
-        "Target Hostname": "192.168.86.100",
-        "Avg RTT milliseconds": 0.38,
-        "Send Overhead %": 2.68,
-        "Avg MB Sent/sec (Effective)": 88.87,
-        "Test Name": "vm_regular_udp_client"
-    },
-    {
-        "Protocol": "tcp",
-        "Role": "client",
-        "Avg CPU usage": 89,
-        "Avg context switches/second": 9540,
-        "Avg interrupts/second": 10762,
-        "Avg soft interrupts/second": 11515,
-        "Avg MB Sent/sec (System)": "135.11 MB/sec",
-        "Avg MB Received/sec (System)": "0.95 MB/sec",
-        "Target Hostname": "10.9.0.1",
-        "Avg RTT milliseconds": 0.67,
-        "Send Overhead %": 8.01,
-        "Avg MB Sent/sec (Effective)": 125.09,
-        "Test Name": "vm_wireguard_tcp_client"
-    },
-    {
-        "Protocol": "udp",
-        "Role": "client",
-        "Avg CPU usage": 99,
-        "Avg context switches/second": 9986,
-        "Avg interrupts/second": 15213,
-        "Avg soft interrupts/second": 15211,
-        "Avg MB Sent/sec (System)": "41.97 MB/sec",
-        "Avg MB Received/sec (System)": "0.00 MB/sec",
-        "Target Hostname": "10.9.0.1",
-        "Avg RTT milliseconds": 0.42,
-        "Send Overhead %": 0.0,
-        "Avg MB Sent/sec (Effective)": 633.55,
-        "Test Name": "vm_wireguard_udp_client"
     },
     {
         "Protocol": "udp",
@@ -264,6 +185,7 @@
         "Avg MB Sent/sec (System)": "55.95 MB/sec",
         "Avg MB Received/sec (System)": "0.00 MB/sec",
         "Target Hostname": "10.8.0.1",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 1.06,
         "Send Overhead %": 0.0,
         "Avg MB Sent/sec (Effective)": 510.63,
@@ -279,6 +201,7 @@
         "Avg MB Sent/sec (System)": "276.60 MB/sec",
         "Avg MB Received/sec (System)": "0.00 MB/sec",
         "Target Hostname": "10.9.0.101",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 0.94,
         "Send Overhead %": 0.0,
         "Avg MB Sent/sec (Effective)": 443.2,
@@ -294,6 +217,7 @@
         "Avg MB Sent/sec (System)": "67.32 MB/sec",
         "Avg MB Received/sec (System)": "0.80 MB/sec",
         "Target Hostname": "10.9.0.101",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 0.87,
         "Send Overhead %": 0.72,
         "Avg MB Sent/sec (Effective)": 66.84,
@@ -309,6 +233,7 @@
         "Avg MB Sent/sec (System)": "31.33 MB/sec",
         "Avg MB Received/sec (System)": "1.12 MB/sec",
         "Target Hostname": "10.8.0.1",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 1.32,
         "Send Overhead %": 8.34,
         "Avg MB Sent/sec (Effective)": 28.92,
@@ -324,6 +249,7 @@
         "Avg MB Sent/sec (System)": "116.86 MB/sec",
         "Avg MB Received/sec (System)": "0.30 MB/sec",
         "Target Hostname": "aws_oregon_short_1.ssmackey.com",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 0.78,
         "Send Overhead %": 0.36,
         "Avg MB Sent/sec (Effective)": 116.44,
@@ -339,6 +265,7 @@
         "Avg MB Sent/sec (System)": "118.19 MB/sec",
         "Avg MB Received/sec (System)": "0.82 MB/sec",
         "Target Hostname": "10.9.0.101",
+        "pid_metrics": null,
         "Avg RTT milliseconds": 1.22,
         "Send Overhead %": 1.44,
         "Avg MB Sent/sec (Effective)": 116.51,
@@ -347,46 +274,223 @@
     {
         "Protocol": "tcp",
         "Role": "client",
-        "Avg CPU usage": 0,
-        "Avg context switches/second": 249,
-        "Avg interrupts/second": 3166,
-        "Avg soft interrupts/second": 3119,
-        "Avg MB Sent/sec (System)": "11.14 MB/sec",
-        "Avg MB Received/sec (System)": "0.06 MB/sec",
-        "Target Hostname": "192.168.86.100",
-        "Avg RTT milliseconds": 0.29,
-        "Send Overhead %": 4.87,
-        "Avg MB Sent/sec (Effective)": 10.62,
-        "Test Name": "vm_regular_rate_100m_tcp_client"
-    },
-    {
-        "Protocol": "tcp",
-        "Role": "client",
-        "Avg CPU usage": 9,
-        "Avg context switches/second": 9096,
-        "Avg interrupts/second": 7448,
-        "Avg soft interrupts/second": 7703,
-        "Avg MB Sent/sec (System)": "11.93 MB/sec",
-        "Avg MB Received/sec (System)": "0.33 MB/sec",
-        "Target Hostname": "10.9.0.1",
-        "Avg RTT milliseconds": 1.06,
-        "Send Overhead %": 9.54,
-        "Avg MB Sent/sec (Effective)": 10.89,
-        "Test Name": "vm_wireguard_rate_100m_tcp_client"
-    },
-    {
-        "Protocol": "tcp",
-        "Role": "client",
-        "Avg CPU usage": 13,
-        "Avg context switches/second": 4690,
-        "Avg interrupts/second": 7423,
-        "Avg soft interrupts/second": 7496,
-        "Avg MB Sent/sec (System)": "12.14 MB/sec",
-        "Avg MB Received/sec (System)": "0.48 MB/sec",
+        "Avg CPU usage": 51,
+        "Avg context switches/second": 881,
+        "Avg interrupts/second": 10035,
+        "Avg soft interrupts/second": 10027,
+        "Avg MB Sent/sec (System)": "18.99 MB/sec",
+        "Avg MB Received/sec (System)": "0.76 MB/sec",
         "Target Hostname": "10.8.0.1",
-        "Avg RTT milliseconds": 0.84,
-        "Send Overhead %": 9.0,
-        "Avg MB Sent/sec (Effective)": 11.14,
-        "Test Name": "vm_openvpn_rate_100m_tcp_client"
+        "pid_metrics": [
+            {
+                "name": "openvpn",
+                "voluntary_ctx_switches_difference_per_sec": 269.3448275862069
+            },
+            {
+                "name": "ksoftirqd/0",
+                "voluntary_ctx_switches_difference_per_sec": 109.79310344827586
+            },
+            {
+                "name": "vmtoolsd",
+                "voluntary_ctx_switches_difference_per_sec": 10.586206896551724
+            },
+            {
+                "name": "rcu_sched",
+                "voluntary_ctx_switches_difference_per_sec": 3.5344827586206895
+            },
+            {
+                "name": "kworker/0:4",
+                "voluntary_ctx_switches_difference_per_sec": 2.9827586206896552
+            }
+        ],
+        "Avg RTT milliseconds": 0.6,
+        "Send Overhead %": 8.75,
+        "Avg MB Sent/sec (Effective)": 17.46,
+        "Test Name": "vm_one_core_openvpn_tcp_client"
+    },
+    {
+        "Protocol": "tcp",
+        "Role": "client",
+        "Avg CPU usage": 62,
+        "Avg context switches/second": 733,
+        "Avg interrupts/second": 2443,
+        "Avg soft interrupts/second": 3186,
+        "Avg MB Sent/sec (System)": "349.24 MB/sec",
+        "Avg MB Received/sec (System)": "0.15 MB/sec",
+        "Target Hostname": "192.168.86.100",
+        "pid_metrics": [
+            {
+                "name": "ksoftirqd/0",
+                "voluntary_ctx_switches_difference_per_sec": 227.55172413793105
+            },
+            {
+                "name": "vmtoolsd",
+                "voluntary_ctx_switches_difference_per_sec": 10.637931034482758
+            },
+            {
+                "name": "rcu_sched",
+                "voluntary_ctx_switches_difference_per_sec": 3.0172413793103448
+            },
+            {
+                "name": "kworker/0:4",
+                "voluntary_ctx_switches_difference_per_sec": 2.9655172413793105
+            },
+            {
+                "name": "kworker/u256:26",
+                "voluntary_ctx_switches_difference_per_sec": 1.103448275862069
+            }
+        ],
+        "Avg RTT milliseconds": 0.33,
+        "Send Overhead %": 4.79,
+        "Avg MB Sent/sec (Effective)": 333.28,
+        "Test Name": "vm_one_core_regular_tcp_client"
+    },
+    {
+        "Protocol": "tcp",
+        "Role": "client",
+        "Avg CPU usage": 99,
+        "Avg context switches/second": 2179,
+        "Avg interrupts/second": 10216,
+        "Avg soft interrupts/second": 14518,
+        "Avg MB Sent/sec (System)": "110.01 MB/sec",
+        "Avg MB Received/sec (System)": "0.72 MB/sec",
+        "Target Hostname": "10.9.0.1",
+        "pid_metrics": [
+            {
+                "name": "ksoftirqd/0",
+                "voluntary_ctx_switches_difference_per_sec": 435.82758620689657
+            },
+            {
+                "name": "kworker/0:0",
+                "voluntary_ctx_switches_difference_per_sec": 254.4655172413793
+            },
+            {
+                "name": "kworker/0:4",
+                "voluntary_ctx_switches_difference_per_sec": 253.77586206896552
+            },
+            {
+                "name": "kworker/0:2",
+                "voluntary_ctx_switches_difference_per_sec": 250.13793103448276
+            },
+            {
+                "name": "kworker/0:3",
+                "voluntary_ctx_switches_difference_per_sec": 249.8448275862069
+            }
+        ],
+        "Avg RTT milliseconds": 0.46,
+        "Send Overhead %": 9.3,
+        "Avg MB Sent/sec (Effective)": 100.65,
+        "Test Name": "vm_one_core_wireguard_tcp_client"
+    },
+    {
+        "Protocol": "tcp",
+        "Role": "client",
+        "Avg CPU usage": 36,
+        "Avg context switches/second": 1093,
+        "Avg interrupts/second": 12478,
+        "Avg soft interrupts/second": 12525,
+        "Avg MB Sent/sec (System)": "24.92 MB/sec",
+        "Avg MB Received/sec (System)": "1.00 MB/sec",
+        "Target Hostname": "10.8.0.1",
+        "pid_metrics": [
+            {
+                "name": "openvpn",
+                "voluntary_ctx_switches_difference_per_sec": 366.51724137931035
+            },
+            {
+                "name": "ksoftirqd/0",
+                "voluntary_ctx_switches_difference_per_sec": 67.74137931034483
+            },
+            {
+                "name": "vmtoolsd",
+                "voluntary_ctx_switches_difference_per_sec": 10.551724137931034
+            },
+            {
+                "name": "rcu_sched",
+                "voluntary_ctx_switches_difference_per_sec": 4.879310344827586
+            },
+            {
+                "name": "kworker/0:2",
+                "voluntary_ctx_switches_difference_per_sec": 1.9827586206896552
+            }
+        ],
+        "Avg RTT milliseconds": 0.7,
+        "Send Overhead %": 8.24,
+        "Avg MB Sent/sec (Effective)": 23.02,
+        "Test Name": "vm_two_core_openvpn_tcp_client"
+    },
+    {
+        "Protocol": "tcp",
+        "Role": "client",
+        "Avg CPU usage": 14,
+        "Avg context switches/second": 548,
+        "Avg interrupts/second": 4047,
+        "Avg soft interrupts/second": 4406,
+        "Avg MB Sent/sec (System)": "277.54 MB/sec",
+        "Avg MB Received/sec (System)": "0.40 MB/sec",
+        "Target Hostname": "192.168.86.100",
+        "pid_metrics": [
+            {
+                "name": "ksoftirqd/0",
+                "voluntary_ctx_switches_difference_per_sec": 69.94827586206897
+            },
+            {
+                "name": "vmtoolsd",
+                "voluntary_ctx_switches_difference_per_sec": 10.689655172413794
+            },
+            {
+                "name": "rcu_sched",
+                "voluntary_ctx_switches_difference_per_sec": 4.068965517241379
+            },
+            {
+                "name": "kworker/1:3",
+                "voluntary_ctx_switches_difference_per_sec": 1.6379310344827587
+            },
+            {
+                "name": "kworker/0:2",
+                "voluntary_ctx_switches_difference_per_sec": 1.5517241379310345
+            }
+        ],
+        "Avg RTT milliseconds": 0.35,
+        "Send Overhead %": 4.34,
+        "Avg MB Sent/sec (Effective)": 265.99,
+        "Test Name": "vm_two_core_regular_tcp_client"
+    },
+    {
+        "Protocol": "tcp",
+        "Role": "client",
+        "Avg CPU usage": 49,
+        "Avg context switches/second": 6047,
+        "Avg interrupts/second": 8218,
+        "Avg soft interrupts/second": 8578,
+        "Avg MB Sent/sec (System)": "66.65 MB/sec",
+        "Avg MB Received/sec (System)": "0.49 MB/sec",
+        "Target Hostname": "10.9.0.1",
+        "pid_metrics": [
+            {
+                "name": "kworker/0:1",
+                "voluntary_ctx_switches_difference_per_sec": 897.2931034482758
+            },
+            {
+                "name": "kworker/0:3",
+                "voluntary_ctx_switches_difference_per_sec": 808.1724137931035
+            },
+            {
+                "name": "kworker/0:2",
+                "voluntary_ctx_switches_difference_per_sec": 539.2758620689655
+            },
+            {
+                "name": "ksoftirqd/0",
+                "voluntary_ctx_switches_difference_per_sec": 272.67241379310343
+            },
+            {
+                "name": "kworker/1:4",
+                "voluntary_ctx_switches_difference_per_sec": 258.1034482758621
+            }
+        ],
+        "Avg RTT milliseconds": 0.62,
+        "Send Overhead %": 7.58,
+        "Avg MB Sent/sec (Effective)": 61.95,
+        "Test Name": "vm_two_core_wireguard_tcp_client"
     }
 ]
