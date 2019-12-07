@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 
-from matplotlib_helper import build_bar_graph
+from matplotlib_helper import build_bar_graph, build_table
 import matplotlib.pyplot as plt
 import json
 import sys
@@ -30,7 +30,7 @@ def parse_out_sorted_results(selected_results):
     (wireguard_tcp,regular_tcp,openvpn_tcp,wireguard_udp,regular_udp,openvpn_udp,)
     if None in (wireguard_tcp,regular_tcp,openvpn_tcp,wireguard_udp,regular_udp,openvpn_udp,):
         print("One of the cases was not found in the selected results! Giving up")
-        pp.pprint(selected_results)
+        # pp.pprint(selected_results)
         sys.exit(1)
 
     return ((regular_tcp, wireguard_tcp, openvpn_tcp) , (regular_udp, wireguard_udp, openvpn_udp))
@@ -119,9 +119,21 @@ def gen_context_metrics(selected_results, title_preamble):
     groups = [
         ([s["Avg context switches/second"] for s in sorted_results_tcp], "tcp"),
     ]
-    build_bar_graph(groups, labels, "Ctx switches/sec", title_preamble + " Server Throughput", axes, show_legend=False)
+    build_bar_graph(groups, labels, "Ctx switches/sec", title_preamble + " Server Ctx Switches", axes, show_legend=False)
     plt.savefig(title_preamble+'_context_switches_bar.png', dpi=300)
 
+    # Table for top pids by ctx
+    # Where results is one test mode (IE regular, wireguard, or openvpn)
+    # Returns a 1d list of str in form "<Proc name> : <ctx switches>"
+    def pid_table_entry(pid_metrics): 
+        return [p["name"] + " : " + str(p["voluntary_ctx_switches_difference_per_sec"]) for p in pid_metrics]
+
+    _, axes = plt.subplots()
+    data = [pid_table_entry(entry["pid_metrics"]) for entry in sorted_results_tcp]
+    build_table(labels, None, data, "Top procs by context switches per second", axes)
+    plt.savefig(title_preamble+'_top_procs_by_ctx.png', dpi=300)
+
+    
 
 
 
@@ -146,7 +158,7 @@ for c in client_results:
     server_test_name = c["Test Name"][:-6] + "server"
     server_dict[server_test_name]["Avg RTT milliseconds"] = c["Avg RTT milliseconds"]
 
-pp.pprint(server_results)
+# pp.pprint(server_results)
 
 
 
@@ -154,7 +166,7 @@ pp.pprint(server_results)
 # Long Distance
 ##################
 
-# # Client
+# Client
 # longhaul_results = [e for e in client_results if "long" in e["Test Name"]]
 # gen_client_summary(longhaul_results, "Longhaul")
 
@@ -171,11 +183,21 @@ pp.pprint(server_results)
 # shorthaul_resuls = [e for e in server_results if "short" in e["Test Name"]]
 # gen_server_summary(shorthaul_resuls, "Shorthaul")
 
-##########################
-# Local VM - One Core
-##########################
+# ##########################
+# # Local VM - One Core
+# ##########################
+
 # Server
 local_vm_one_core = [e for e in server_results if "one_core" in e["Test Name"]]
 gen_server_summary(local_vm_one_core, "Local VM - One Core")
 gen_context_metrics(local_vm_one_core, "Local VM - One Core")
+
+# ##########################
+# # Local VM - Two Core
+# ##########################
+
+# # Server
+local_vm_two_core = [e for e in server_results if "two_core" in e["Test Name"]]
+# gen_server_summary(local_vm_two_core, "Local VM - Two Core")
+gen_context_metrics(local_vm_two_core, "Local VM - Two Core")
 

@@ -64,6 +64,18 @@ def build_bar_graph(
     
     for r in rects: autolabel(r)
 
+# Where rowLabels is a 1d list of row labels
+# Where data is a 2d list, with each element being a 1d list corresponsing to the data for a single row
+# colLabels can be None
+def build_table(rowLabels, colLabels, data, title, axs):
+
+    # Table data needs to be a 2d list of strings
+
+    axs.axis('tight')
+    axs.axis('off')
+    axs.table(cellText=data, rowLabels=rowLabels, colLabels=colLabels, loc='center')
+    # axs.set_title(title)
+
 
 if __name__ == "__main__":
     g_plot_nrows = 2
@@ -79,7 +91,16 @@ if __name__ == "__main__":
         ([25, 32, 1000], "udp"),
     ]
     build_bar_graph(groups, labels, "MB/sec", "Throughput", ax)
-
     fig.tight_layout()
 
+
+
+    ax = axes[0][1]
+    row_labels = ("row 1", "row 2", "row 3")
+    col_labels = ("col 1", "col 2", "col 3")
+    row_data   = (("1,1", "1,2", "1,3"), ("2,1", "2,2", "2,3"), ("3,1", "3,2", "3,3"))
+    build_table(row_labels, col_labels, row_data, ax)
+
     plt.show()
+
+
