@@ -71,7 +71,7 @@ def build_table(rowLabels, colLabels, data, title, axs):
 
     # Table data needs to be a 2d list of strings
 
-    axs.axis('tight')
+    # axs.axis('tight')
     axs.axis('off')
     axs.table(cellText=data, rowLabels=rowLabels, colLabels=colLabels, loc='center')
     # axs.set_title(title)

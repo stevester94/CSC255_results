@@ -4,6 +4,7 @@ from matplotlib_helper import build_bar_graph, build_table
 import matplotlib.pyplot as plt
 import json
 import sys
+import numpy
 import pprint
 pp = pprint.PrettyPrinter()
 
@@ -117,24 +118,29 @@ def gen_context_metrics(selected_results, title_preamble):
     # Context switch bar graph
     _, axes = plt.subplots()
     groups = [
-        ([s["Avg context switches/second"] for s in sorted_results_tcp], "tcp"),
+        ([round(s["Avg context switches/second"],2) for s in sorted_results_tcp], "tcp"),
     ]
-    build_bar_graph(groups, labels, "Ctx switches/sec", title_preamble + " Server Ctx Switches", axes, show_legend=False)
+    build_bar_graph(groups, labels, "Ctx switches/sec", title_preamble + " Ctx Switches", axes, show_legend=False)
     plt.savefig(title_preamble+'_context_switches_bar.png', dpi=300)
 
     # Table for top pids by ctx
     # Where results is one test mode (IE regular, wireguard, or openvpn)
     # Returns a 1d list of str in form "<Proc name> : <ctx switches>"
     def pid_table_entry(pid_metrics): 
-        return [p["name"] + " : " + str(p["voluntary_ctx_switches_difference_per_sec"]) for p in pid_metrics]
+        return [p["name"] + " : " + str(round(p["voluntary_ctx_switches_difference_per_sec"], 2)) for p in pid_metrics]
 
     _, axes = plt.subplots()
     data = [pid_table_entry(entry["pid_metrics"]) for entry in sorted_results_tcp]
-    build_table(labels, None, data, "Top procs by context switches per second", axes)
-    plt.savefig(title_preamble+'_top_procs_by_ctx.png', dpi=300)
 
+    # Rotate so we have a tall table instead
+    rotated_data = list(numpy.rot90(data))
+
+    rotated_data.reverse()
     
 
+    build_table(None, labels, rotated_data, "Top procs by context switches per second", axes)
+
+    plt.savefig(title_preamble+'_top_procs_by_ctx.png', dpi=300,bbox_inches='tight')
 
 
 
@@ -166,22 +172,22 @@ for c in client_results:
 # Long Distance
 ##################
 
-# Client
-longhaul_results = [e for e in client_results if "long" in e["Test Name"]]
-gen_client_summary(longhaul_results, "Longhaul")
+# # Client
+# longhaul_results = [e for e in client_results if "long" in e["Test Name"]]
+# gen_client_summary(longhaul_results, "Longhaul")
 
-# Server
-longhaul_results = [e for e in server_results if "long" in e["Test Name"]]
-gen_server_summary(longhaul_results, "Longhaul")
+# # Server
+# longhaul_results = [e for e in server_results if "long" in e["Test Name"]]
+# gen_server_summary(longhaul_results, "Longhaul")
 
-###################
-# Short Distance
-# Only need server for this one, since client results are doodoo
-###################
+# ###################
+# # Short Distance
+# # Only need server for this one, since client results are doodoo
+# ###################
 
-# Server
-shorthaul_resuls = [e for e in server_results if "short" in e["Test Name"]]
-gen_server_summary(shorthaul_resuls, "Shorthaul")
+# # Server
+# shorthaul_resuls = [e for e in server_results if "short" in e["Test Name"]]
+# gen_server_summary(shorthaul_resuls, "Shorthaul")
 
 # ##########################
 # # Local VM - One Core
@@ -189,15 +195,21 @@ gen_server_summary(shorthaul_resuls, "Shorthaul")
 
 # Server
 local_vm_one_core = [e for e in server_results if "one_core" in e["Test Name"]]
-gen_server_summary(local_vm_one_core, "Local VM - One Core")
+gen_server_summary(local_vm_one_core, "Local VM Server - One Core")
 gen_context_metrics(local_vm_one_core, "Local VM - One Core")
 
-# ##########################
-# # Local VM - Two Core
-# ##########################
+# Client
+local_vm_one_core_client = [e for e in client_results if "one_core" in e["Test Name"]]
+gen_context_metrics(local_vm_one_core_client, "Local VM Client - One Core")
+##########################
+# Local VM - Two Core
+##########################
 
-# # Server
+# Server
 local_vm_two_core = [e for e in server_results if "two_core" in e["Test Name"]]
-# gen_server_summary(local_vm_two_core, "Local VM - Two Core")
-gen_context_metrics(local_vm_two_core, "Local VM - Two Core")
+gen_server_summary(local_vm_two_core, "Local VM Server - Two Core")
+
+# Client
+local_vm_two_core_client = [e for e in client_results if "two_core" in e["Test Name"]]
+gen_context_metrics(local_vm_two_core_client, "Local VM Client - Two Core")
 
