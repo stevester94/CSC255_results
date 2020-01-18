@@ -1,0 +1,66 @@
+[
+    {
+        "filename": "aws_short_haul_server_cpu_usage.png",
+        "title": "AWS Short Haul Server CPU Usage (Percent)",
+        "x_labels": ["Regular", "Wireguard", "OpenVPN"],
+        "y_label": "Percent",
+        "show_legend": true,
+        "group_data": [
+            [[2,6,48], "tcp"],
+            [[1,1,2], "udp"]
+        ]
+    },
+    {
+        "filename": "aws_short_haul_server_rtt.png",
+        "title": "AWS Short Haul Server RTT (ms)",
+        "x_labels": ["Regular", "Wireguard", "OpenVPN"],
+        "y_label": "ms",
+        "show_legend": false,
+        "group_data": [
+            [[0.78, 1.22, 1.32], "single"]
+        ]
+    },
+    {
+        "filename": "aws_short_haul_server_throughput.png",
+        "title": "AWS Short Haul Throughput (MB/sec)",
+        "x_labels": ["Regular", "Wireguard", "OpenVPN"],
+        "y_label": "MB/sec",
+        "show_legend": true,
+        "group_data": [
+            [[115.75, 115.77, 28.77], "tcp"],
+            [[8.72, 8.65, 0], "udp"]
+        ]
+    },
+    {
+        "filename": "local_vm_server_cpu_usage.png",
+        "title": "Local VM Server CPU Usage (Percent)",
+        "x_labels": ["Regular", "Wireguard", "OpenVPN"],
+        "y_label": "Percent",
+        "show_legend": true,
+        "group_data": [
+            [[87, 74, 92], "tcp"],
+            [[23, 44, 48], "udp"]
+        ]
+    },
+    {
+        "filename": "local_vm_server_rtt.png",
+        "title": "Local VM server RTT (ms)",
+        "x_labels": ["Regular", "Wireguard", "OpenVPN"],
+        "y_label": "ms",
+        "show_legend": false,
+        "group_data": [
+            [[0.33, 0.4, 0.53], "whatever"]
+        ]
+    },
+    {
+        "filename": "local_vm_server_throughput.png",
+        "title": "Local VM Server Throughput (MB/sec)",
+        "x_labels": ["Regular", "Wireguard", "OpenVPN"],
+        "y_label": "MB/sec",
+        "show_legend": true,
+        "group_data": [
+            [[333.44, 101.84, 18.45], "tcp"],
+            [[87.45, 38.77, 14.44], "udp"]
+        ]
+    }
+]
