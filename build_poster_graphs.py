@@ -9,6 +9,8 @@ import matplotlib.pyplot as plt
 
 pp = pprint.PrettyPrinter()
 
+SAVE_PATH = "graphs/"
+
 #    ([<data>], label),
 def handle_result(item):
     _, axes = plt.subplots()
@@ -17,11 +19,13 @@ def handle_result(item):
         item["group_data"],
         item["x_labels"],
         item["y_label"],
-        item["title"],
-        axes
+        # item["title"],
+        "",
+        axes,
+        show_legend=item["show_legend"]
     )
 
-    plt.savefig(item["filename"], dpi=300,bbox_inches='tight')
+    plt.savefig(SAVE_PATH + item["filename"], dpi=300,bbox_inches='tight')
 
 if __name__ == "__main__":
     results = None
