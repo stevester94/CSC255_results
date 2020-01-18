@@ -27,7 +27,7 @@ def build_bar_graph(
             height = rect.get_height()
             ax.annotate('{}'.format(height),
                         xy=(rect.get_x() + rect.get_width() / 2, height),
-                        xytext=(0, 3),  # 3 points vertical offset
+                        xytext=(0, 0),  # 3 points vertical offset
                         textcoords="offset points",
                         ha='center', va='bottom')
 
@@ -43,7 +43,7 @@ def build_bar_graph(
     
     num_groups = len(group_data)
     x = np.arange(len(x_labels))  # the label locations
-    total_width = 0.35  # the width of all the bars in a group
+    total_width = bar_width  # the width of all the bars in a group
 
     rects = []
     for index, group in enumerate(group_data):

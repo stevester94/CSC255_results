@@ -5,6 +5,7 @@
         "x_labels": ["Regular", "Wireguard", "OpenVPN"],
         "y_label": "Percent",
         "show_legend": true,
+        "bar_width": 0.7,
         "group_data": [
             [[2,6,48], "tcp"],
             [[1,1,2], "udp"]
@@ -16,6 +17,7 @@
         "x_labels": ["Regular", "Wireguard", "OpenVPN"],
         "y_label": "ms",
         "show_legend": false,
+        "bar_width": 0.35,
         "group_data": [
             [[0.78, 1.22, 1.32], "single"]
         ]
@@ -26,6 +28,7 @@
         "x_labels": ["Regular", "Wireguard", "OpenVPN"],
         "y_label": "MB/sec",
         "show_legend": true,
+        "bar_width": 0.7,
         "group_data": [
             [[115.75, 115.77, 28.77], "tcp"],
             [[8.72, 8.65, 0], "udp"]
@@ -37,6 +40,7 @@
         "x_labels": ["Regular", "Wireguard", "OpenVPN"],
         "y_label": "Percent",
         "show_legend": true,
+        "bar_width": 0.7,
         "group_data": [
             [[87, 74, 92], "tcp"],
             [[23, 44, 48], "udp"]
@@ -48,6 +52,7 @@
         "x_labels": ["Regular", "Wireguard", "OpenVPN"],
         "y_label": "ms",
         "show_legend": false,
+        "bar_width": 0.35,
         "group_data": [
             [[0.33, 0.4, 0.53], "whatever"]
         ]
@@ -58,6 +63,7 @@
         "x_labels": ["Regular", "Wireguard", "OpenVPN"],
         "y_label": "MB/sec",
         "show_legend": true,
+        "bar_width": 0.7,
         "group_data": [
             [[333.44, 101.84, 18.45], "tcp"],
             [[87.45, 38.77, 14.44], "udp"]

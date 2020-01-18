@@ -22,10 +22,12 @@ def handle_result(item):
         # item["title"],
         "",
         axes,
-        show_legend=item["show_legend"]
+        show_legend=item["show_legend"],
+        bar_width=item["bar_width"]
     )
 
     plt.savefig(SAVE_PATH + item["filename"], dpi=300,bbox_inches='tight')
+    # plt.show()
 
 if __name__ == "__main__":
     results = None
